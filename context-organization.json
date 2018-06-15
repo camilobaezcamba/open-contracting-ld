@@ -15,11 +15,11 @@
       "@id": "http://purl.org/onto-ocds/ocds#contactPoint",
       "@type": "@id"
     },
-     "address": {
-      "@id" : "http://purl.org/onto-ocds/ocds#address",
-      "@type" : "@id"
+    "address": {
+      "@id": "http://purl.org/onto-ocds/ocds#address",
+      "@type": "@id"
     },
-     "identifier": {
+    "identifier": {
       "@id": "http://purl.org/onto-ocds/ocds#identifier",
       "@type": "@id"
     },

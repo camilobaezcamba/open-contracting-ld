@@ -1,83 +1,80 @@
-  {
-            "@context": "http://girolabs.com.py/ocds/context-award.json",
-            "@type": "Award",
-            "@id": "https://www.contrataciones.gov.py/datos/id/adjudicaciones/193399-adquisicion-scanner",
-            "id": "193399-adquisicion-scanner",
-            "title": "Adquisición de Scanner",
-            "status": "active",
-            "date": "2010-04-23T12:25:10-04:00",
-            "value": {
-                "@context": "http://girolabs.com.py/ocds/context-value.json",
-                "@type": "Value",
-              
-              "amount": 135630400,
-              "currency": "PYG"
-            },
-            "suppliers": [
-              {
-                  "@context": "http://girolabs.com.py/ocds/context-organization.json",
-                  "@type": "Organization",
-                  "@id": "https://www.contrataciones.gov.py/datos/id/suppliers/80013889-9",
-                "name": "DATA SYSTEMS SA EMISORA DE CAPITAL ABIERTO",
-                "identifier": {
-                  "@context": "http://girolabs.com.py/ocds/context-identifier.json",
-                  "@type": "Identifier",
-                
-                  "id": "80013889-9",
-                  "legalName": "DATA SYSTEMS SA EMISORA DE CAPITAL ABIERTO",
-                  "scheme": "Registro Único de Contribuyente emitido por el Ministerio de Hacienda del Gobierno de Paraguay"
-                },
-                "address": {
-                  "@context": "http://girolabs.com.py/ocds/context-address.json",
-                  "@type": "Address",
-                 
-                  "streetAddress": "SALTOS DEL GUAIRA 1055",
-                  "postalCode": "",
-                  "locality": "ASUNCION (DISTRITO)",
-                  "countryName": "Paraguay",
-                  "region": "Central"
-                },
-                "contactPoint": {
-                  "@context": "http://girolabs.com.py/ocds/context-contactPoint.json",
-                  "@type": "contactPoint",
-                  "name": "JOSE MANUEL FLECHA C., SERGIO GUSTAVO PEREZ B., MARCIAL LEITON; HUGO GIMENEZ",
-                  "faxNumber": "",
-                  "telephone": "213-347/8",
-                  "email": "datasys@data.com.py",
-                  "url": "http://www.data.com.py"
-                }
-              },
-              {
-                "@context": "http://girolabs.com.py/ocds/context-organization.json",
-                "@type": "Organization",
-                "@id": "https://www.contrataciones.gov.py/datos/id/suppliers/80007525-0",
-                "name": "MASTER SOFT SRL",
-                "identifier": {
-                    "@context": "http://girolabs.com.py/ocds/context-identifier.json",
-                    "@type": "Identifier",
-                  "id": "80007525-0",
-                  "legalName": "MASTER SOFT SRL",
-                  "scheme": "Registro Único de Contribuyente emitido por el Ministerio de Hacienda del Gobierno de Paraguay"
-                },
-                "address": {
-                  "@context": "http://girolabs.com.py/ocds/context-address.json",
-                  "@type": "Address",
-                  "streetAddress": "CHOFERES DEL CHACO Nº1956",
-                  "postalCode": "",
-                  "locality": "ASUNCION",
-                  "countryName": "Paraguay",
-                  "region": "Asunción"
-                },
-                "contactPoint": {
-                    "@context": "http://girolabs.com.py/ocds/context-contactPoint.json",
-                    "@type": "contactPoint",
-                  "name": "LUIS MARIA OREGGIONI, GISELA SELMA WEIBERLEN DE OREGGIONI",
-                  "faxNumber": "",
-                  "telephone": "662831",
-                  "email": "mastersoft@tigo.com.py",
-                  "url": null
-                }
-              }
-            ],
-            "url": "https://www.contrataciones.gov.py/datos/id/adjudicaciones/193399-adquisicion-scanner"
-          }
+{
+  "@context": "http://girolabs.com.py/ocds/context-award.json",
+  "@type": "Award",
+  "@id": "https://www.contrataciones.gov.py/datos/id/adjudicaciones/193399-adquisicion-scanner",
+  "id": "193399-adquisicion-scanner",
+  "title": "Adquisición de Scanner",
+  "status": "active",
+  "date": "2010-04-23T12:25:10-04:00",
+  "value": {
+    "@context": "http://girolabs.com.py/ocds/context-value.json",
+    "@type": "Value",
+    "amount": 135630400,
+    "currency": "PYG"
+  },
+  "suppliers": [
+    {
+      "@context": "http://girolabs.com.py/ocds/context-organization.json",
+      "@type": "Organization",
+      "@id": "https://www.contrataciones.gov.py/datos/id/suppliers/80013889-9",
+      "name": "DATA SYSTEMS SA EMISORA DE CAPITAL ABIERTO",
+      "identifier": {
+        "@context": "http://girolabs.com.py/ocds/context-identifier.json",
+        "@type": "Identifier",
+        "id": "80013889-9",
+        "legalName": "DATA SYSTEMS SA EMISORA DE CAPITAL ABIERTO",
+        "scheme": "Registro Único de Contribuyente emitido por el Ministerio de Hacienda del Gobierno de Paraguay"
+      },
+      "address": {
+        "@context": "http://girolabs.com.py/ocds/context-address.json",
+        "@type": "Address",
+        "streetAddress": "SALTOS DEL GUAIRA 1055",
+        "postalCode": "",
+        "locality": "ASUNCION (DISTRITO)",
+        "countryName": "Paraguay",
+        "region": "Central"
+      },
+      "contactPoint": {
+        "@context": "http://girolabs.com.py/ocds/context-contactPoint.json",
+        "@type": "contactPoint",
+        "name": "JOSE MANUEL FLECHA C., SERGIO GUSTAVO PEREZ B., MARCIAL LEITON; HUGO GIMENEZ",
+        "faxNumber": "",
+        "telephone": "213-347/8",
+        "email": "datasys@data.com.py",
+        "url": "http://www.data.com.py"
+      }
+    },
+    {
+      "@context": "http://girolabs.com.py/ocds/context-organization.json",
+      "@type": "Organization",
+      "@id": "https://www.contrataciones.gov.py/datos/id/suppliers/80007525-0",
+      "name": "MASTER SOFT SRL",
+      "identifier": {
+        "@context": "http://girolabs.com.py/ocds/context-identifier.json",
+        "@type": "Identifier",
+        "id": "80007525-0",
+        "legalName": "MASTER SOFT SRL",
+        "scheme": "Registro Único de Contribuyente emitido por el Ministerio de Hacienda del Gobierno de Paraguay"
+      },
+      "address": {
+        "@context": "http://girolabs.com.py/ocds/context-address.json",
+        "@type": "Address",
+        "streetAddress": "CHOFERES DEL CHACO Nº1956",
+        "postalCode": "",
+        "locality": "ASUNCION",
+        "countryName": "Paraguay",
+        "region": "Asunción"
+      },
+      "contactPoint": {
+        "@context": "http://girolabs.com.py/ocds/context-contactPoint.json",
+        "@type": "contactPoint",
+        "name": "LUIS MARIA OREGGIONI, GISELA SELMA WEIBERLEN DE OREGGIONI",
+        "faxNumber": "",
+        "telephone": "662831",
+        "email": "mastersoft@tigo.com.py",
+        "url": null
+      }
+    }
+  ],
+  "url": "https://www.contrataciones.gov.py/datos/id/adjudicaciones/193399-adquisicion-scanner"
+}

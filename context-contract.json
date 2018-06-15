@@ -1,88 +1,70 @@
 {
   "@context": {
-    "Contract" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#Contract"
+    "Contract": {
+      "@id": "http://purl.org/onto-ocds/ocds#Contract"
     },
-
-    "id" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#contractId"
+    "id": {
+      "@id": "http://purl.org/onto-ocds/ocds#contractId"
     },
-
-    "title" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#contractTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "title": {
+      "@id": "http://purl.org/onto-ocds/ocds#contractTitle",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
-
-    "description" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#contractDescription",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "description": {
+      "@id": "http://purl.org/onto-ocds/ocds#contractDescription",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
-
-    "status" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#contractStatus",
-      "@type" : "@id"
+    "status": {
+      "@id": "http://purl.org/onto-ocds/ocds#contractStatus",
+      "@type": "@id"
     },
-
-    "period" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#contractPeriod",
-      "@type" : "@id"
+    "period": {
+      "@id": "http://purl.org/onto-ocds/ocds#contractPeriod",
+      "@type": "@id"
     },
-
-    "value" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#contractValue",
-      "@type" : "@id"
+    "value": {
+      "@id": "http://purl.org/onto-ocds/ocds#contractValue",
+      "@type": "@id"
     },
-
-    "items" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#contractItems",
-      "@type" : "@id"
+    "items": {
+      "@id": "http://purl.org/onto-ocds/ocds#contractItems",
+      "@type": "@id"
     },
-
-    "dateSigned" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#dateSigned",
-      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    "dateSigned": {
+      "@id": "http://purl.org/onto-ocds/ocds#dateSigned",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
     },
-
-    "documents" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#contractDocuments",
-      "@type" : "@id"
+    "documents": {
+      "@id": "http://purl.org/onto-ocds/ocds#contractDocuments",
+      "@type": "@id"
     },
-
-    "implementation" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#implementation",
-      "@type" : "@id"
+    "implementation": {
+      "@id": "http://purl.org/onto-ocds/ocds#implementation",
+      "@type": "@id"
     },
-
-    "relatedProcess":  {
-      "@id" : "http://purl.org/onto-ocds/ocds#TODO",
-      "@type" : "@id"
+    "relatedProcess": {
+      "@id": "http://purl.org/onto-ocds/ocds#TODO",
+      "@type": "@id"
     },
-
-       "milestones" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#milestones",
-      "@type" : "@id"
+    "milestones": {
+      "@id": "http://purl.org/onto-ocds/ocds#milestones",
+      "@type": "@id"
     },
-
-    "suppliers" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#contractSuppliers",
-      "@type" : "@id"
-    },   
-
-    "dncpContractCode" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#dncpContractCode",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "suppliers": {
+      "@id": "http://purl.org/onto-ocds/ocds#contractSuppliers",
+      "@type": "@id"
     },
-
-    "contractAmendment" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#contractAmendment",
-      "@type" : "@id"
+    "dncpContractCode": {
+      "@id": "http://purl.org/onto-ocds/ocds#dncpContractCode",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
-   
-
-    "lots" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#contractLots",
-      "@type" : "@id"
+    "contractAmendment": {
+      "@id": "http://purl.org/onto-ocds/ocds#contractAmendment",
+      "@type": "@id"
+    },
+    "lots": {
+      "@id": "http://purl.org/onto-ocds/ocds#contractLots",
+      "@type": "@id"
     }
-
   }
 }

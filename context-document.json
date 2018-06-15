@@ -3,36 +3,36 @@
     "Document": {
       "@id": "http://purl.org/onto-ocds/ocds#Document"
     },
-    "documentType" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#documentType",
-      "@type" : "@id"
+    "documentType": {
+      "@id": "http://purl.org/onto-ocds/ocds#documentType",
+      "@type": "@id"
     },
-    "url" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#documentUrl",
-      "@type" : "@id"
+    "url": {
+      "@id": "http://purl.org/onto-ocds/ocds#documentUrl",
+      "@type": "@id"
     },
-    "id" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#documentId"
+    "id": {
+      "@id": "http://purl.org/onto-ocds/ocds#documentId"
     },
-    "title" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#documentTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "title": {
+      "@id": "http://purl.org/onto-ocds/ocds#documentTitle",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
-    "dateModified" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#documentDateModified",
-      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    "dateModified": {
+      "@id": "http://purl.org/onto-ocds/ocds#documentDateModified",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
     },
-    "language" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#documentLanguage",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "language": {
+      "@id": "http://purl.org/onto-ocds/ocds#documentLanguage",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
-    "description" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#documentDescription",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "description": {
+      "@id": "http://purl.org/onto-ocds/ocds#documentDescription",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
-    "format" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#format",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "format": {
+      "@id": "http://purl.org/onto-ocds/ocds#format",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     }
   }
 }

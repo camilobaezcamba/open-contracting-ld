@@ -3,20 +3,20 @@
     "Classification": {
       "@id": "http://purl.org/onto-ocds/ocds#Classification"
     },
-    "id" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#classificationId"
+    "id": {
+      "@id": "http://purl.org/onto-ocds/ocds#classificationId"
     },
-    "description" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#classificationDescription",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "description": {
+      "@id": "http://purl.org/onto-ocds/ocds#classificationDescription",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
-    "scheme" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#classificationScheme",
-      "@type" : "@id"
+    "scheme": {
+      "@id": "http://purl.org/onto-ocds/ocds#classificationScheme",
+      "@type": "@id"
     },
-    "uri" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#classificationUri",
-      "@type" : "@id"
+    "uri": {
+      "@id": "http://purl.org/onto-ocds/ocds#classificationUri",
+      "@type": "@id"
     }
   }
 }

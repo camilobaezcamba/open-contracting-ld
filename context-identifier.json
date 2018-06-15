@@ -1,29 +1,22 @@
 {
-  "@context": {   
-
-  	   "Identifier" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#Identifier"
+  "@context": {
+    "Identifier": {
+      "@id": "http://purl.org/onto-ocds/ocds#Identifier"
     },
-
-     "scheme" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#identifierScheme",
-      "@type" : "@id"
+    "scheme": {
+      "@id": "http://purl.org/onto-ocds/ocds#identifierScheme",
+      "@type": "@id"
     },
-     "id" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#identifierId"
+    "id": {
+      "@id": "http://purl.org/onto-ocds/ocds#identifierId"
     },
-
-    "legalName" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#legalName",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "legalName": {
+      "@id": "http://purl.org/onto-ocds/ocds#legalName",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
-
-
-    "uri" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#identifierUri",
-      "@type" : "@id"
-    }   
-
- 
+    "uri": {
+      "@id": "http://purl.org/onto-ocds/ocds#identifierUri",
+      "@type": "@id"
+    }
   }
 }

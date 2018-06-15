@@ -1,28 +1,28 @@
 {
   "@context": {
-    "contactPoint" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#contactPoint",
-      "@type" : "@id"
+    "contactPoint": {
+      "@id": "http://purl.org/onto-ocds/ocds#contactPoint",
+      "@type": "@id"
     },
-    "url" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#contactPointUrl",
-      "@type" : "@id"
+    "url": {
+      "@id": "http://purl.org/onto-ocds/ocds#contactPointUrl",
+      "@type": "@id"
     },
-     "name" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#contactPointName",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "name": {
+      "@id": "http://purl.org/onto-ocds/ocds#contactPointName",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
-    "faxNumber" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#faxNumber",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "faxNumber": {
+      "@id": "http://purl.org/onto-ocds/ocds#faxNumber",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
-    "email" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#email",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "email": {
+      "@id": "http://purl.org/onto-ocds/ocds#email",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
-    "telephone" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#telephone",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "telephone": {
+      "@id": "http://purl.org/onto-ocds/ocds#telephone",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     }
   }
 }

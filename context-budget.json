@@ -1,6 +1,5 @@
 {
   "@context": {
-    
     "Budget": {
       "@id": "http://purl.org/onto-ocds/ocds#Budget"
     },
@@ -13,5 +12,4 @@
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     }
   }
-
 }

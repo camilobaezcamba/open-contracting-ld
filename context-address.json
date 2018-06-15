@@ -1,29 +1,28 @@
 {
-  "@context": {   
-    "Address" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#Address",
-        "@type" : "@id"
+  "@context": {
+    "Address": {
+      "@id": "http://purl.org/onto-ocds/ocds#Address",
+      "@type": "@id"
     },
-   "streetAddress" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#streetAddress",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "streetAddress": {
+      "@id": "http://purl.org/onto-ocds/ocds#streetAddress",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
-  "postalCode" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#postalCode",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "postalCode": {
+      "@id": "http://purl.org/onto-ocds/ocds#postalCode",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
-     "locality" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#locality",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "locality": {
+      "@id": "http://purl.org/onto-ocds/ocds#locality",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
-   "countryName" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#countryName",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "countryName": {
+      "@id": "http://purl.org/onto-ocds/ocds#countryName",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
-
-    "region" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#region",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "region": {
+      "@id": "http://purl.org/onto-ocds/ocds#region",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     }
   }
 }

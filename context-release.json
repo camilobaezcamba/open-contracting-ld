@@ -1,50 +1,47 @@
-{     
-"@context":{
- 
- "Release" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#Release"
+{
+  "@context": {
+    "Release": {
+      "@id": "http://purl.org/onto-ocds/ocds#Release"
     },
-    "ocid" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#ocid",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "ocid": {
+      "@id": "http://purl.org/onto-ocds/ocds#ocid",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
-
-     "date" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#releaseDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    "date": {
+      "@id": "http://purl.org/onto-ocds/ocds#releaseDate",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
     },
-
-    "tag" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#ReleaseTag"
-    },     
-    "initiationType" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#initiationType",
-      "@type" : "@id"
-    },    
-    "planning" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#planning",
-      "@type" : "@id"
+    "tag": {
+      "@id": "http://purl.org/onto-ocds/ocds#ReleaseTag"
     },
-    "tender" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#tender",
-      "@type" : "@id"
+    "initiationType": {
+      "@id": "http://purl.org/onto-ocds/ocds#initiationType",
+      "@type": "@id"
     },
-    "buyer" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#buyer",
-      "@type" : "@id"
+    "planning": {
+      "@id": "http://purl.org/onto-ocds/ocds#planning",
+      "@type": "@id"
     },
-   "awards" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#award",
-      "@type" : "@id"
-    },   
-    "contracts" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#contracts",
-      "@type" : "@id"
+    "tender": {
+      "@id": "http://purl.org/onto-ocds/ocds#tender",
+      "@type": "@id"
     },
-    "language" : {
-      "@id" : "http://purl.org/onto-ocds/ocds#releaseLanguage",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "buyer": {
+      "@id": "http://purl.org/onto-ocds/ocds#buyer",
+      "@type": "@id"
+    },
+    "awards": {
+      "@id": "http://purl.org/onto-ocds/ocds#award",
+      "@type": "@id"
+    },
+    "contracts": {
+      "@id": "http://purl.org/onto-ocds/ocds#contracts",
+      "@type": "@id"
+    },
+    "language": {
+      "@id": "http://purl.org/onto-ocds/ocds#releaseLanguage",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     }
-    }
+  }
 }
        
