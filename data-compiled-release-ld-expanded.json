@@ -1,0 +1,1309 @@
+[
+  {
+    "@id": "https://www.contrataciones.gov.py/datos/id/adjudicaciones/193399-adquisicion-scanner",
+    "@type": [
+      "http://w3id.org/ocds/ns##Release"
+    ],
+    "http://w3id.org/ocds/ns##award": [
+      {
+        "@id": "https://www.contrataciones.gov.py/datos/id/adjudicaciones/193399-adquisicion-scanner",
+        "@type": [
+          "http://w3id.org/ocds/ns##Award"
+        ],
+        "http://w3id.org/ocds/ns##awardDate": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2010-04-23T12:25:10-04:00"
+          }
+        ],
+        "http://w3id.org/ocds/ns##awardID": [
+          {
+            "@id": "https://json-ld.org/playground/193399-adquisicion-scanner"
+          }
+        ],
+        "http://w3id.org/ocds/ns##awardStatus": [
+          {
+            "@id": "https://json-ld.org/playground/active"
+          }
+        ],
+        "http://w3id.org/ocds/ns##suppliers": [
+          {
+            "@id": "https://www.contrataciones.gov.py/datos/id/suppliers/80013889-9",
+            "@type": [
+              "http://w3id.org/ocds/ns##Organization"
+            ],
+            "http://w3id.org/ocds/ns##address": [
+              {
+                "@type": [
+                  "http://w3id.org/ocds/ns##Address"
+                ],
+                "http://w3id.org/ocds/ns##countryName": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#string",
+                    "@value": "Paraguay"
+                  }
+                ],
+                "http://w3id.org/ocds/ns##locality": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#string",
+                    "@value": "ASUNCION (DISTRITO)"
+                  }
+                ],
+                "http://w3id.org/ocds/ns##postalCode": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#string",
+                    "@value": ""
+                  }
+                ],
+                "http://w3id.org/ocds/ns##region": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#string",
+                    "@value": "Central"
+                  }
+                ],
+                "http://w3id.org/ocds/ns##streetAddress": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#string",
+                    "@value": "SALTOS DEL GUAIRA 1055"
+                  }
+                ]
+              }
+            ],
+            "http://w3id.org/ocds/ns##contactPoint": [
+              {
+                "@type": [
+                  "http://w3id.org/ocds/ns##contactPoint"
+                ],
+                "http://w3id.org/ocds/ns##email": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#string",
+                    "@value": "datasys@data.com.py"
+                  }
+                ],
+                "http://w3id.org/ocds/ns##faxNumber": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#string",
+                    "@value": ""
+                  }
+                ],
+                "http://w3id.org/ocds/ns##contactPointName": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#string",
+                    "@value": "JOSE MANUEL FLECHA C., SERGIO GUSTAVO PEREZ B., MARCIAL LEITON; HUGO GIMENEZ"
+                  }
+                ],
+                "http://w3id.org/ocds/ns##telephone": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#string",
+                    "@value": "213-347/8"
+                  }
+                ],
+                "http://w3id.org/ocds/ns##contactPointUrl": [
+                  {
+                    "@id": "http://www.data.com.py"
+                  }
+                ]
+              }
+            ],
+            "http://w3id.org/ocds/ns##identifier": [
+              {
+                "@type": [
+                  "http://w3id.org/ocds/ns##Identifier"
+                ],
+                "http://w3id.org/ocds/ns##identifierId": [
+                  {
+                    "@value": "80013889-9"
+                  }
+                ],
+                "http://w3id.org/ocds/ns##legalName": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#string",
+                    "@value": "DATA SYSTEMS SA EMISORA DE CAPITAL ABIERTO"
+                  }
+                ],
+                "http://w3id.org/ocds/ns##identifierScheme": [
+                  {
+                    "@id": "https://json-ld.org/playground/Registro Único de Contribuyente emitido por el Ministerio de Hacienda del Gobierno de Paraguay"
+                  }
+                ]
+              }
+            ],
+            "http://w3id.org/ocds/ns##organizationName": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "DATA SYSTEMS SA EMISORA DE CAPITAL ABIERTO"
+              }
+            ]
+          },
+          {
+            "@id": "https://www.contrataciones.gov.py/datos/id/suppliers/80007525-0",
+            "@type": [
+              "http://w3id.org/ocds/ns##Organization"
+            ],
+            "http://w3id.org/ocds/ns##address": [
+              {
+                "@type": [
+                  "http://w3id.org/ocds/ns##Address"
+                ],
+                "http://w3id.org/ocds/ns##countryName": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#string",
+                    "@value": "Paraguay"
+                  }
+                ],
+                "http://w3id.org/ocds/ns##locality": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#string",
+                    "@value": "ASUNCION"
+                  }
+                ],
+                "http://w3id.org/ocds/ns##postalCode": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#string",
+                    "@value": ""
+                  }
+                ],
+                "http://w3id.org/ocds/ns##region": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#string",
+                    "@value": "Asunción"
+                  }
+                ],
+                "http://w3id.org/ocds/ns##streetAddress": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#string",
+                    "@value": "CHOFERES DEL CHACO Nº1956"
+                  }
+                ]
+              }
+            ],
+            "http://w3id.org/ocds/ns##contactPoint": [
+              {
+                "@type": [
+                  "http://w3id.org/ocds/ns##contactPoint"
+                ],
+                "http://w3id.org/ocds/ns##email": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#string",
+                    "@value": "mastersoft@tigo.com.py"
+                  }
+                ],
+                "http://w3id.org/ocds/ns##faxNumber": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#string",
+                    "@value": ""
+                  }
+                ],
+                "http://w3id.org/ocds/ns##contactPointName": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#string",
+                    "@value": "LUIS MARIA OREGGIONI, GISELA SELMA WEIBERLEN DE OREGGIONI"
+                  }
+                ],
+                "http://w3id.org/ocds/ns##telephone": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#string",
+                    "@value": "662831"
+                  }
+                ]
+              }
+            ],
+            "http://w3id.org/ocds/ns##identifier": [
+              {
+                "@type": [
+                  "http://w3id.org/ocds/ns##Identifier"
+                ],
+                "http://w3id.org/ocds/ns##identifierId": [
+                  {
+                    "@value": "80007525-0"
+                  }
+                ],
+                "http://w3id.org/ocds/ns##legalName": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#string",
+                    "@value": "MASTER SOFT SRL"
+                  }
+                ],
+                "http://w3id.org/ocds/ns##identifierScheme": [
+                  {
+                    "@id": "https://json-ld.org/playground/Registro Único de Contribuyente emitido por el Ministerio de Hacienda del Gobierno de Paraguay"
+                  }
+                ]
+              }
+            ],
+            "http://w3id.org/ocds/ns##organizationName": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "MASTER SOFT SRL"
+              }
+            ]
+          }
+        ],
+        "http://w3id.org/ocds/ns##awardTitle": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#string",
+            "@value": "Adquisición de Scanner"
+          }
+        ],
+        "http://w3id.org/ocds/ns##awardURL": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+            "@value": "https://www.contrataciones.gov.py/datos/id/adjudicaciones/193399-adquisicion-scanner"
+          }
+        ],
+        "http://w3id.org/ocds/ns##awardValue": [
+          {
+            "@type": [
+              "http://w3id.org/ocds/ns##Value"
+            ],
+            "http://w3id.org/ocds/ns##valueAmount": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#integer",
+                "@value": 135630400
+              }
+            ],
+            "http://w3id.org/ocds/ns##currency": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "PYG"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "http://w3id.org/ocds/ns##buyer": [
+      {
+        "@type": [
+          "http://w3id.org/ocds/ns##Organization"
+        ],
+        "http://w3id.org/ocds/ns##contactPoint": [
+          {
+            "@type": [
+              "http://w3id.org/ocds/ns##contactPoint"
+            ],
+            "http://w3id.org/ocds/ns##email": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "uoc@contrataciones.gov.py"
+              }
+            ],
+            "http://w3id.org/ocds/ns##contactPointName": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "Abog. Cynthia Leite de Lezcano"
+              }
+            ],
+            "http://w3id.org/ocds/ns##telephone": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "415-4000"
+              }
+            ]
+          }
+        ],
+        "http://w3id.org/ocds/ns##organizationName": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#string",
+            "@value": "Dirección Nacional de Contrataciones Públicas (DNCP)"
+          }
+        ]
+      }
+    ],
+    "http://w3id.org/ocds/ns##contracts": [
+      {
+        "@id": "https://www.contrataciones.gov.py/datos/id/contratos/193399-data-systems-sa-emisora-capital-abierto-2",
+        "@type": [
+          "http://w3id.org/ocds/ns##Contract"
+        ],
+        "http://w3id.org/ocds/ns##dateSigned": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2010-04-14T12:00:00-04:00"
+          }
+        ],
+        "http://w3id.org/ocds/ns##dncpContractCode": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#string",
+            "@value": "CO-23019-10-0806"
+          }
+        ],
+        "http://w3id.org/ocds/ns##contractDocuments": [
+          {
+            "@id": "https://json-ld.org/playground/2S8yoOhxZc8%3D",
+            "@type": [
+              "http://w3id.org/ocds/ns##Document"
+            ],
+            "http://w3id.org/ocds/ns##documentType": [
+              {
+                "@id": "https://json-ld.org/playground/Cuadro Comparativo de Ofertas"
+              }
+            ],
+            "http://w3id.org/ocds/ns##format": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "application/pdf"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentId": [
+              {
+                "@value": "2S8yoOhxZc8%3D"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentLanguage": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "es"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentTitle": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "Cuadro Comparativo de Ofertas"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentUrl": [
+              {
+                "@id": "https://www.contrataciones.gov.py/documentos/download/adjudicacion/2S8yoOhxZc8%253D"
+              }
+            ]
+          },
+          {
+            "@id": "https://json-ld.org/playground/Yu2KNStSJdE%3D",
+            "@type": [
+              "http://w3id.org/ocds/ns##Document"
+            ],
+            "http://w3id.org/ocds/ns##documentType": [
+              {
+                "@id": "https://json-ld.org/playground/evaluationReports"
+              }
+            ],
+            "http://w3id.org/ocds/ns##format": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "application/pdf"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentId": [
+              {
+                "@value": "Yu2KNStSJdE%3D"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentLanguage": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "es"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentTitle": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "Informe de Evaluación"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentUrl": [
+              {
+                "@id": "https://www.contrataciones.gov.py/documentos/download/adjudicacion/Yu2KNStSJdE%253D"
+              }
+            ]
+          },
+          {
+            "@id": "https://json-ld.org/playground/9hIjOhq4IC0%3D",
+            "@type": [
+              "http://w3id.org/ocds/ns##Document"
+            ],
+            "http://w3id.org/ocds/ns##documentType": [
+              {
+                "@id": "https://json-ld.org/playground/awardNotice"
+              }
+            ],
+            "http://w3id.org/ocds/ns##format": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "application/pdf"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentId": [
+              {
+                "@value": "9hIjOhq4IC0%3D"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentLanguage": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "es"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentTitle": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "Resolución de Adjudicación"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentUrl": [
+              {
+                "@id": "https://www.contrataciones.gov.py/documentos/download/adjudicacion/9hIjOhq4IC0%253D"
+              }
+            ]
+          }
+        ],
+        "http://w3id.org/ocds/ns##contractId": [
+          {
+            "@value": "193399-data-systems-sa-emisora-capital-abierto-2"
+          }
+        ],
+        "http://w3id.org/ocds/ns##contractItems": [
+          {
+            "@id": "https://json-ld.org/playground/Aospdg6erjw%3D",
+            "@type": [
+              "http://w3id.org/ocds/ns##Item"
+            ],
+            "http://w3id.org/ocds/ns##classification": [
+              {
+                "http://w3id.org/ocds/ns##itemDescription": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#string",
+                    "@value": "Catálogo de productos, bienes y servicios de la Dirección Nacional de Contrataciones Públicas del Paraguay Nivel 5, basado en UNSPSC"
+                  }
+                ],
+                "http://w3id.org/ocds/ns##itemId": [
+                  {
+                    "@value": "43211711-001"
+                  }
+                ]
+              }
+            ],
+            "http://w3id.org/ocds/ns##itemDescription": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "Scanners"
+              }
+            ],
+            "http://w3id.org/ocds/ns##itemId": [
+              {
+                "@value": "Aospdg6erjw%3D"
+              }
+            ],
+            "http://w3id.org/ocds/ns##quantity": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#integer",
+                "@value": 2
+              }
+            ],
+            "http://w3id.org/ocds/ns##unit": [
+              {
+                "@type": [
+                  "http://w3id.org/ocds/ns##Unit"
+                ],
+                "http://w3id.org/ocds/ns##unitName": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#string",
+                    "@value": "Unidad"
+                  }
+                ],
+                "http://w3id.org/ocds/ns##unitValue": [
+                  {
+                    "@type": [
+                      "http://w3id.org/ocds/ns##Value"
+                    ],
+                    "http://w3id.org/ocds/ns##valueAmount": [
+                      {
+                        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+                        "@value": 52800000
+                      }
+                    ],
+                    "http://w3id.org/ocds/ns##currency": [
+                      {
+                        "@type": "http://www.w3.org/2001/XMLSchema#string",
+                        "@value": "PYG"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "http://w3id.org/ocds/ns##contractLots": [
+          {
+            "http://w3id.org/ocds/ns##contractId": [
+              {
+                "@value": "nYZlDIKXpLc%3D"
+              }
+            ],
+            "http://w3id.org/ocds/ns##contractItems": [
+              {
+                "@id": "https://json-ld.org/playground/Aospdg6erjw%3D"
+              }
+            ],
+            "http://w3id.org/ocds/ns##contractTitle": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "Lote 1"
+              }
+            ]
+          }
+        ],
+        "http://w3id.org/ocds/ns##contractPeriod": [
+          {
+            "@type": [
+              "http://w3id.org/ocds/ns##Period"
+            ],
+            "http://w3id.org/ocds/ns##endDate": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "@value": "2010-06-14T12:00:00-04:00"
+              }
+            ],
+            "http://w3id.org/ocds/ns##startDate": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "@value": "2010-04-15T12:00:00-04:00"
+              }
+            ]
+          }
+        ],
+        "http://w3id.org/ocds/ns##contractStatus": [
+          {
+            "@id": "https://json-ld.org/playground/active"
+          }
+        ],
+        "http://w3id.org/ocds/ns##contractTitle": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#string",
+            "@value": "Adquisición de Scanner"
+          }
+        ]
+      },
+      {
+        "@id": "https://www.contrataciones.gov.py/datos/id/contratos/193399-master-soft-srl-3",
+        "@type": [
+          "http://w3id.org/ocds/ns##Contract"
+        ],
+        "http://w3id.org/ocds/ns##dateSigned": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2010-04-15T12:00:00-04:00"
+          }
+        ],
+        "http://w3id.org/ocds/ns##dncpContractCode": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#string",
+            "@value": "CO-23019-10-0805"
+          }
+        ],
+        "http://w3id.org/ocds/ns##contractDocuments": [
+          {
+            "@id": "https://json-ld.org/playground/2S8yoOhxZc8%3D",
+            "@type": [
+              "http://w3id.org/ocds/ns##Document"
+            ],
+            "http://w3id.org/ocds/ns##documentType": [
+              {
+                "@id": "https://json-ld.org/playground/Cuadro Comparativo de Ofertas"
+              }
+            ],
+            "http://w3id.org/ocds/ns##format": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "application/pdf"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentId": [
+              {
+                "@value": "2S8yoOhxZc8%3D"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentLanguage": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "es"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentTitle": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "Cuadro Comparativo de Ofertas"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentUrl": [
+              {
+                "@id": "https://www.contrataciones.gov.py/documentos/download/adjudicacion/2S8yoOhxZc8%253D"
+              }
+            ]
+          },
+          {
+            "@id": "https://json-ld.org/playground/Yu2KNStSJdE%3D",
+            "@type": [
+              "http://w3id.org/ocds/ns##Document"
+            ],
+            "http://w3id.org/ocds/ns##documentType": [
+              {
+                "@id": "https://json-ld.org/playground/evaluationReports"
+              }
+            ],
+            "http://w3id.org/ocds/ns##format": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "application/pdf"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentId": [
+              {
+                "@value": "Yu2KNStSJdE%3D"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentLanguage": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "es"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentTitle": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "Informe de Evaluación"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentUrl": [
+              {
+                "@id": "https://www.contrataciones.gov.py/documentos/download/adjudicacion/Yu2KNStSJdE%253D"
+              }
+            ]
+          },
+          {
+            "@id": "https://json-ld.org/playground/9hIjOhq4IC0%3D",
+            "@type": [
+              "http://w3id.org/ocds/ns##Document"
+            ],
+            "http://w3id.org/ocds/ns##documentType": [
+              {
+                "@id": "https://json-ld.org/playground/awardNotice"
+              }
+            ],
+            "http://w3id.org/ocds/ns##format": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "application/pdf"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentId": [
+              {
+                "@value": "9hIjOhq4IC0%3D"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentLanguage": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "es"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentTitle": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "Resolución de Adjudicación"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentUrl": [
+              {
+                "@id": "https://www.contrataciones.gov.py/documentos/download/adjudicacion/9hIjOhq4IC0%253D"
+              }
+            ]
+          }
+        ],
+        "http://w3id.org/ocds/ns##contractId": [
+          {
+            "@value": "193399-master-soft-srl-3"
+          }
+        ],
+        "http://w3id.org/ocds/ns##contractItems": [
+          {
+            "@id": "https://json-ld.org/playground/sZuyK1A%2BAH0%3D",
+            "@type": [
+              "https://json-ld.org/playground/Items"
+            ],
+            "http://w3id.org/ocds/ns##classification": [
+              {
+                "@id": "https://www.contrataciones.gov.py/datos/api/v2/doc/catalogo/nivel-5/43211711-001",
+                "@type": [
+                  "https://json-ld.org/playground/Clasification"
+                ],
+                "http://w3id.org/ocds/ns##classificationDescription": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#string",
+                    "@value": "Catálogo de productos, bienes y servicios de la Dirección Nacional de Contrataciones Públicas del Paraguay Nivel 5, basado en UNSPSC"
+                  }
+                ],
+                "http://w3id.org/ocds/ns##classificationId": [
+                  {
+                    "@value": "43211711-001"
+                  }
+                ],
+                "http://w3id.org/ocds/ns##classificationUri": [
+                  {
+                    "@id": "https://www.contrataciones.gov.py/datos/api/v2/doc/catalogo/nivel-5/43211711-001"
+                  }
+                ]
+              }
+            ],
+            "http://w3id.org/ocds/ns##itemDescription": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "Scanners"
+              }
+            ],
+            "http://w3id.org/ocds/ns##itemId": [
+              {
+                "@value": "sZuyK1A%2BAH0%3D"
+              }
+            ],
+            "http://w3id.org/ocds/ns##quantity": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#integer",
+                "@value": 8
+              }
+            ],
+            "http://w3id.org/ocds/ns##unit": [
+              {
+                "@type": [
+                  "http://w3id.org/ocds/ns##Unit"
+                ],
+                "http://w3id.org/ocds/ns##unitName": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#string",
+                    "@value": "Unidad"
+                  }
+                ],
+                "http://w3id.org/ocds/ns##unitValue": [
+                  {
+                    "@type": [
+                      "http://w3id.org/ocds/ns##Value"
+                    ],
+                    "http://w3id.org/ocds/ns##valueAmount": [
+                      {
+                        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+                        "@value": 3753800
+                      }
+                    ],
+                    "http://w3id.org/ocds/ns##currency": [
+                      {
+                        "@type": "http://www.w3.org/2001/XMLSchema#string",
+                        "@value": "PYG"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "http://w3id.org/ocds/ns##contractLots": [
+          {
+            "http://w3id.org/ocds/ns##contractId": [
+              {
+                "@value": "nYZlDIKXpLc%3D"
+              }
+            ],
+            "http://w3id.org/ocds/ns##contractItems": [
+              {
+                "@id": "https://json-ld.org/playground/sZuyK1A%2BAH0%3D"
+              }
+            ],
+            "http://w3id.org/ocds/ns##contractTitle": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "Lote 1"
+              }
+            ]
+          }
+        ],
+        "http://w3id.org/ocds/ns##contractPeriod": [
+          {
+            "@type": [
+              "http://w3id.org/ocds/ns##Period"
+            ],
+            "http://w3id.org/ocds/ns##endDate": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "@value": "2010-06-14T12:00:00-04:00"
+              }
+            ],
+            "http://w3id.org/ocds/ns##startDate": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "@value": "2010-04-15T12:00:00-04:00"
+              }
+            ]
+          }
+        ],
+        "http://w3id.org/ocds/ns##contractStatus": [
+          {
+            "@id": "https://json-ld.org/playground/active"
+          }
+        ],
+        "http://w3id.org/ocds/ns##contractTitle": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#string",
+            "@value": "Adquisición de Scanner"
+          }
+        ]
+      }
+    ],
+    "http://w3id.org/ocds/ns##releaseDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2018-01-11T16:53:24-05:00"
+      }
+    ],
+    "http://w3id.org/ocds/ns##initiationType": [
+      {
+        "@id": "https://json-ld.org/playground/tender"
+      }
+    ],
+    "http://w3id.org/ocds/ns##releaseLanguage": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "es"
+      }
+    ],
+    "http://w3id.org/ocds/ns##ocid": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ocds-03ad3f-193399"
+      }
+    ],
+    "http://w3id.org/ocds/ns##planning": [
+      {
+        "@id": "https://www.contrataciones.gov.py/datos/id/planificaciones/193399-adquisicion-scanner",
+        "@type": [
+          "http://w3id.org/ocds/ns##Planning"
+        ],
+        "http://w3id.org/ocds/ns##budget": [
+          {
+            "@type": [
+              "http://w3id.org/ocds/ns##Budget"
+            ],
+            "http://w3id.org/ocds/ns##budgetAmount": [
+              {
+                "@type": [
+                  "http://w3id.org/ocds/ns##Value"
+                ],
+                "http://w3id.org/ocds/ns##valueAmount": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
+                    "@value": 12000000
+                  }
+                ],
+                "http://w3id.org/ocds/ns##currency": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#string",
+                    "@value": "PYG"
+                  }
+                ]
+              }
+            ],
+            "http://w3id.org/ocds/ns##budgetDescription": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "Adquisición de Scanner"
+              }
+            ]
+          }
+        ],
+        "http://w3id.org/ocds/ns##planningUrl": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+            "@value": "https://www.contrataciones.gov.py/datos/id/planificaciones/193399-adquisicion-scanner"
+          }
+        ]
+      }
+    ],
+    "http://w3id.org/ocds/ns##ReleaseTag": [
+      {
+        "@value": "compiled"
+      }
+    ],
+    "http://w3id.org/ocds/ns##tender": [
+      {
+        "@id": "https://www.contrataciones.gov.py/datos/id/convocatorias/193399-adquisicion-scanner",
+        "@type": [
+          "http://w3id.org/ocds/ns##Tender"
+        ],
+        "http://w3id.org/ocds/ns##awardPeriod": [
+          {
+            "@type": [
+              "http://w3id.org/ocds/ns##Period"
+            ],
+            "http://w3id.org/ocds/ns##endDate": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "@value": "2010-03-17T10:10:33-04:00"
+              }
+            ],
+            "http://w3id.org/ocds/ns##startDate": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "@value": "2010-02-05T00:00:00-05:00"
+              }
+            ]
+          }
+        ],
+        "http://w3id.org/ocds/ns##tenderDocuments": [
+          {
+            "@type": [
+              "http://w3id.org/ocds/ns##Document"
+            ],
+            "http://w3id.org/ocds/ns##documentType": [
+              {
+                "@id": "https://json-ld.org/playground/Condiciones Generales del Contrato - Bienes y Servicios por Subasta"
+              }
+            ],
+            "http://w3id.org/ocds/ns##format": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "application/pdf"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentId": [
+              {
+                "@value": "y%2FJgDClEAtk%3D"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentLanguage": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "es"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentTitle": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "Condiciones Generales del Contrato - Bienes y Servicios por Subasta"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentUrl": [
+              {
+                "@id": "https://www.contrataciones.gov.py/documentos/download/convocatoria/y%252FJgDClEAtk%253D"
+              }
+            ]
+          },
+          {
+            "@type": [
+              "http://w3id.org/ocds/ns##Document"
+            ],
+            "http://w3id.org/ocds/ns##documentType": [
+              {
+                "@id": "https://json-ld.org/playground/Instrucción a los Oferentes - Bienes y Servicios por Subasta"
+              }
+            ],
+            "http://w3id.org/ocds/ns##format": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "application/pdf"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentId": [
+              {
+                "@value": "PhIjL%2Fj9z8k%3D"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentLanguage": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "es"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentTitle": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "Instrucción a los Oferentes - Bienes y Servicios por Subasta"
+              }
+            ],
+            "http://w3id.org/ocds/ns##documentUrl": [
+              {
+                "@id": "https://www.contrataciones.gov.py/documentos/download/convocatoria/PhIjL%252Fj9z8k%253D"
+              }
+            ]
+          }
+        ],
+        "http://w3id.org/ocds/ns##enquiryPeriod": [
+          {
+            "@type": [
+              "http://w3id.org/ocds/ns##Period"
+            ],
+            "http://w3id.org/ocds/ns##endDate": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "@value": "2010-02-05T00:00:00-05:00"
+              }
+            ]
+          }
+        ],
+        "http://w3id.org/ocds/ns##hasEnquiries": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": false
+          }
+        ],
+        "http://w3id.org/ocds/ns##tenderId": [
+          {
+            "@value": "193399-adquisicion-scanner"
+          }
+        ],
+        "http://w3id.org/ocds/ns##tenderItems": [
+          {
+            "@id": "https://json-ld.org/playground/P8melbTmu7M%3D",
+            "@type": [
+              "http://w3id.org/ocds/ns##Item"
+            ],
+            "http://w3id.org/ocds/ns##classification": [
+              {
+                "@id": "https://www.contrataciones.gov.py/datos/api/v2/doc/catalogo/nivel-5/43211711-001",
+                "@type": [
+                  "http://w3id.org/ocds/ns#Classification"
+                ],
+                "http://w3id.org/ocds/ns##classificationDescription": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#string",
+                    "@value": "Catálogo de productos, bienes y servicios de la Dirección Nacional de Contrataciones Públicas del Paraguay Nivel 5, basado en UNSPSC"
+                  }
+                ],
+                "http://w3id.org/ocds/ns##classificationId": [
+                  {
+                    "@value": "43211711-001"
+                  }
+                ],
+                "http://w3id.org/ocds/ns##classificationScheme": [
+                  {
+                    "@id": "https://json-ld.org/playground/Catálogo de productos, bienes y servicios de la Dirección Nacional de Contrataciones Públicas del Paraguay"
+                  }
+                ],
+                "http://w3id.org/ocds/ns##classificationUri": [
+                  {
+                    "@id": "https://www.contrataciones.gov.py/datos/api/v2/doc/catalogo/nivel-5/43211711-001"
+                  }
+                ]
+              }
+            ],
+            "http://w3id.org/ocds/ns##itemDescription": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "Scanners"
+              }
+            ],
+            "http://w3id.org/ocds/ns##itemId": [
+              {
+                "@value": "P8melbTmu7M%3D"
+              }
+            ],
+            "http://w3id.org/ocds/ns##quantity": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#integer",
+                "@value": 8
+              }
+            ],
+            "http://w3id.org/ocds/ns##unit": [
+              {
+                "@type": [
+                  "http://w3id.org/ocds/ns##Unit"
+                ],
+                "http://w3id.org/ocds/ns##unitName": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#string",
+                    "@value": "Unidad"
+                  }
+                ],
+                "http://w3id.org/ocds/ns##unitValue": [
+                  {
+                    "@type": [
+                      "http://w3id.org/ocds/ns##Value"
+                    ],
+                    "http://w3id.org/ocds/ns##currency": [
+                      {
+                        "@type": "http://www.w3.org/2001/XMLSchema#string",
+                        "@value": "PYG"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "@id": "https://json-ld.org/playground/aGlYxd8PQDw%3D",
+            "@type": [
+              "http://w3id.org/ocds/ns##Item"
+            ],
+            "http://w3id.org/ocds/ns##classification": [
+              {
+                "@id": "https://www.contrataciones.gov.py/datos/api/v2/doc/catalogo/nivel-5/43211711-001",
+                "@type": [
+                  "http://w3id.org/ocds/ns#Classification"
+                ],
+                "http://w3id.org/ocds/ns##classificationDescription": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#string",
+                    "@value": "Catálogo de productos, bienes y servicios de la Dirección Nacional de Contrataciones Públicas del Paraguay Nivel 5, basado en UNSPSC"
+                  }
+                ],
+                "http://w3id.org/ocds/ns##classificationId": [
+                  {
+                    "@value": "43211711-001"
+                  }
+                ],
+                "http://w3id.org/ocds/ns##classificationScheme": [
+                  {
+                    "@id": "https://json-ld.org/playground/Catálogo de productos, bienes y servicios de la Dirección Nacional de Contrataciones Públicas del Paraguay"
+                  }
+                ],
+                "http://w3id.org/ocds/ns##classificationUri": [
+                  {
+                    "@id": "https://www.contrataciones.gov.py/datos/api/v2/doc/catalogo/nivel-5/43211711-001"
+                  }
+                ]
+              }
+            ],
+            "http://w3id.org/ocds/ns##itemDescription": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "Scanners"
+              }
+            ],
+            "http://w3id.org/ocds/ns##itemId": [
+              {
+                "@value": "aGlYxd8PQDw%3D"
+              }
+            ],
+            "http://w3id.org/ocds/ns##quantity": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#integer",
+                "@value": 2
+              }
+            ],
+            "http://w3id.org/ocds/ns##unit": [
+              {
+                "@type": [
+                  "http://w3id.org/ocds/ns##Unit"
+                ],
+                "http://w3id.org/ocds/ns##unitName": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#string",
+                    "@value": "Unidad"
+                  }
+                ],
+                "http://w3id.org/ocds/ns##unitValue": [
+                  {
+                    "@type": [
+                      "http://w3id.org/ocds/ns##Value"
+                    ],
+                    "http://w3id.org/ocds/ns##currency": [
+                      {
+                        "@type": "http://www.w3.org/2001/XMLSchema#string",
+                        "@value": "PYG"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "http://w3id.org/ocds/ns##tenderLots": [
+          {
+            "http://w3id.org/ocds/ns##tenderId": [
+              {
+                "@value": "nYZlDIKXpLc%3D"
+              }
+            ],
+            "http://w3id.org/ocds/ns##tenderItems": [
+              {
+                "@id": "https://json-ld.org/playground/P8melbTmu7M%3D"
+              },
+              {
+                "@id": "https://json-ld.org/playground/aGlYxd8PQDw%3D"
+              }
+            ],
+            "http://w3id.org/ocds/ns##tenderTitle": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "Lote 1"
+              }
+            ]
+          }
+        ],
+        "http://w3id.org/ocds/ns##procuringEntity": [
+          {
+            "@type": [
+              "http://w3id.org/ocds/ns##Organization"
+            ],
+            "http://w3id.org/ocds/ns##contactPoint": [
+              {
+                "http://w3id.org/ocds/ns##organizationName": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#string",
+                    "@value": "Abog. Cynthia Leite de Lezcano"
+                  }
+                ]
+              }
+            ],
+            "http://w3id.org/ocds/ns##organizationName": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "Dirección Nacional de Contrataciones Públicas (DNCP)"
+              }
+            ]
+          }
+        ],
+        "http://w3id.org/ocds/ns##tenderStatus": [
+          {
+            "@id": "https://json-ld.org/playground/complete"
+          }
+        ],
+        "http://w3id.org/ocds/ns##submissionMethod": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#string",
+            "@value": "electronicAuction"
+          }
+        ],
+        "http://w3id.org/ocds/ns##tenderPeriod": [
+          {
+            "@type": [
+              "http://w3id.org/ocds/ns##Period"
+            ],
+            "http://w3id.org/ocds/ns##startDate": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "@value": "2010-03-15T09:00:00-04:00"
+              }
+            ]
+          }
+        ],
+        "http://w3id.org/ocds/ns##tenderTitle": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#string",
+            "@value": "Adquisición de Scanner"
+          }
+        ],
+        "http://w3id.org/ocds/ns##tenderUrl": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+            "@value": "https://www.contrataciones.gov.py/datos/id/convocatorias/193399-adquisicion-scanner"
+          }
+        ],
+        "http://w3id.org/ocds/ns##tenderValue": [
+          {
+            "@type": [
+              "http://w3id.org/ocds/ns##Value"
+            ],
+            "http://w3id.org/ocds/ns##currency": [
+              {
+                "@type": "http://www.w3.org/2001/XMLSchema#string",
+                "@value": "PYG"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

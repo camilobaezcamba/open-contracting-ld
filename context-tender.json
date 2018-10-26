@@ -1,0 +1,62 @@
+{
+  "@context": {
+    "Tender": {
+      "@id": "http://purl.org/onto-ocds/ocds#Tender"
+    },
+    "id": {
+      "@id": "http://purl.org/onto-ocds/ocds#tenderId"
+    },
+    "title": {
+      "@id": "http://purl.org/onto-ocds/ocds#tenderTitle",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "status": {
+      "@id": "http://purl.org/onto-ocds/ocds#tenderStatus",
+      "@type": "@id"
+    },
+    "lots": {
+      "@id": "http://purl.org/onto-ocds/ocds#tenderLots",
+      "@type": "@id"
+    },
+    "items": {
+      "@id": "http://purl.org/onto-ocds/ocds#tenderItems",
+      "@type": "@id"
+    },
+    "value": {
+      "@id": "http://purl.org/onto-ocds/ocds#tenderValue",
+      "@type": "@id"
+    },
+    "enquiryPeriod": {
+      "@id": "http://purl.org/onto-ocds/ocds#enquiryPeriod",
+      "@type": "@id"
+    },
+    "hasEnquiries": {
+      "@id": "http://purl.org/onto-ocds/ocds#hasEnquiries",
+      "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "awardPeriod": {
+      "@id": "http://purl.org/onto-ocds/ocds#awardPeriod",
+      "@type": "@id"
+    },
+    "procuringEntity": {
+      "@id": "http://purl.org/onto-ocds/ocds#procuringEntity",
+      "@type": "@id"
+    },
+    "documents": {
+      "@id": "http://purl.org/onto-ocds/ocds#tenderDocuments",
+      "@type": "@id"
+    },
+    "tenderPeriod": {
+      "@id": "http://purl.org/onto-ocds/ocds#tenderPeriod",
+      "@type": "@id"
+    },
+    "submissionMethod": {
+      "@id": "http://purl.org/onto-ocds/ocds#submissionMethod",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url": {
+      "@id": "http://purl.org/onto-ocds/ocds#tenderUrl",
+      "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+    }
+  }
+}

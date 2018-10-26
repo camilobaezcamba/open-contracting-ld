@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "Planning": {
+      "@id": "http://purl.org/onto-ocds/ocds#Planning"
+    },
+    "budget": {
+      "@id": "http://purl.org/onto-ocds/ocds#budget",
+      "@type": "@id"
+    },
+    "url": {
+      "@id": "http://purl.org/onto-ocds/ocds#planningUrl",
+      "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+    }
+  }
+}

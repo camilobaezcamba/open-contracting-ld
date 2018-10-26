@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "Value": {
+      "@id": "http://purl.org/onto-ocds/ocds#Value"
+    },
+    "currency": {
+      "@id": "http://purl.org/onto-ocds/ocds#currency",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "amount": {
+      "@id": "http://purl.org/onto-ocds/ocds#valueAmount",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "Award": {
+      "@id": "http://purl.org/onto-ocds/ocds#Award"
+    },
+    "id": {
+      "@id": "http://purl.org/onto-ocds/ocds#awardID",
+      "@type": "@id"
+    },
+    "title": {
+      "@id": "http://purl.org/onto-ocds/ocds#awardTitle",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "status": {
+      "@id": "http://purl.org/onto-ocds/ocds#awardStatus",
+      "@type": "@id"
+    },
+    "date": {
+      "@id": "http://purl.org/onto-ocds/ocds#awardDate",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "value": {
+      "@id": "http://purl.org/onto-ocds/ocds#awardValue",
+      "@type": "@id"
+    },
+    "suppliers": {
+      "@id": "http://purl.org/onto-ocds/ocds#suppliers",
+      "@type": "@id"
+    },
+    "description": {
+      "@id": "http://purl.org/onto-ocds/ocds#awardDescription",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "amendment": {
+      "@id": "http://purl.org/onto-ocds/ocds#awardAmendment",
+      "@type": "@id"
+    },
+    "documents": {
+      "@id": "http://purl.org/onto-ocds/ocds#awardDocuments",
+      "@type": "@id"
+    },
+    "url": {
+      "@id": "http://purl.org/onto-ocds/ocds#awardURL",
+      "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+    }
+  }
+}

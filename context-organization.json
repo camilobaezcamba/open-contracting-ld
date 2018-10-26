@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "Organization": {
+      "@id": "http://purl.org/onto-ocds/ocds#Organization"
+    },
+    "name": {
+      "@id": "http://purl.org/onto-ocds/ocds#organizationName",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "id": {
+      "@id": "http://purl.org/onto-ocds/ocds#identifier",
+      "@type": "@id"
+    },
+    "contactPoint": {
+      "@id": "http://purl.org/onto-ocds/ocds#contactPoint",
+      "@type": "@id"
+    },
+    "address": {
+      "@id": "http://purl.org/onto-ocds/ocds#address",
+      "@type": "@id"
+    },
+    "identifier": {
+      "@id": "http://purl.org/onto-ocds/ocds#identifier",
+      "@type": "@id"
+    },
+    "identifiers": {
+      "@id": "http://purl.org/onto-ocds/ocds#additionalIdentifiers",
+      "@type": "@id"
+    }
+  }
+}

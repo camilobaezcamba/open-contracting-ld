@@ -1,0 +1,227 @@
+[
+  {
+    "@context": "http://girolabs.com.py/ocds/context-contract.json",
+    "@type": "Contract",
+    "@id": "https://www.contrataciones.gov.py/datos/id/contratos/193399-data-systems-sa-emisora-capital-abierto-2",
+    "id": "193399-data-systems-sa-emisora-capital-abierto-2",
+    "awardID": "193399-adquisicion-scanner",
+    "dncpContractCode": "CO-23019-10-0806",
+    "title": "Adquisición de Scanner",
+    "status": "active",
+    "value": {
+      "@context": "http://girolabs.com.py/ocds/context-value.json",
+      "@type": "Value",
+      "amount": 105600000,
+      "currency": "PYG"
+    },
+    "lots": [
+      {
+        "id": "nYZlDIKXpLc%3D",
+        "title": "Lote 1",
+        "items": [
+          "Aospdg6erjw%3D"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "@context": "http://girolabs.com.py/ocds/context-item.json",
+        "@type": "Item",
+        "@id": "Aospdg6erjw%3D",
+        "description": "Scanners",
+        "id": "Aospdg6erjw%3D",
+        "classification": {
+          "schema": "Catálogo de productos, bienes y servicios de la Dirección Nacional de Contrataciones Públicas del Paraguay",
+          "id": "43211711-001",
+          "description": "Catálogo de productos, bienes y servicios de la Dirección Nacional de Contrataciones Públicas del Paraguay Nivel 5, basado en UNSPSC",
+          "uri": "https://www.contrataciones.gov.py/datos/api/v2/doc/catalogo/nivel-5/43211711-001"
+        },
+        "quantity": 2,
+        "unit": {
+          "@context": "http://girolabs.com.py/ocds/context-unit.json",
+          "@type": "Unit",
+          "name": "Unidad",
+          "value": {
+            "@context": "http://girolabs.com.py/ocds/context-value.json",
+            "@type": "Value",
+            "amount": 52800000,
+            "currency": "PYG"
+          }
+        }
+      }
+    ],
+    "dateSigned": "2010-04-14T12:00:00-04:00",
+    "suppliers": {
+      "@context": "http://girolabs.com.py/ocds/context-organization.json",
+      "@type": "Organization",
+      "@id": "https://www.contrataciones.gov.py/datos/id/suppliers/80007525-0",
+      "name": "DATA SYSTEMS SA EMISORA DE CAPITAL ABIERTO",
+      "identifier": {
+        "@context": "http://girolabs.com.py/ocds/context-identifier.json",
+        "@type": "Identifier",
+        "id": "80013889-9",
+        "legalName": "DATA SYSTEMS SA EMISORA DE CAPITAL ABIERTO",
+        "scheme": "Registro Único de Contribuyente emitido por el Ministerio de Hacienda del Gobierno de Paraguay"
+      },
+      "identifiers": {
+        "key": "193399-data-systems-sa-emisora-capital-abierto-2"
+      }
+    },
+    "documents": [
+      {
+        "@context": "http://girolabs.com.py/ocds/context-document.json",
+        "@type": "Document",
+        "@id": "2S8yoOhxZc8%3D",
+        "id": "2S8yoOhxZc8%3D",
+        "documentType": "Cuadro Comparativo de Ofertas",
+        "title": "Cuadro Comparativo de Ofertas",
+        "language": "es",
+        "url": "https://www.contrataciones.gov.py/documentos/download/adjudicacion/2S8yoOhxZc8%253D",
+        "format": "application/pdf"
+      },
+      {
+        "@context": "http://girolabs.com.py/ocds/context-document.json",
+        "@type": "Document",
+        "@id": "Yu2KNStSJdE%3D",
+        "id": "Yu2KNStSJdE%3D",
+        "documentType": "evaluationReports",
+        "title": "Informe de Evaluación",
+        "language": "es",
+        "url": "https://www.contrataciones.gov.py/documentos/download/adjudicacion/Yu2KNStSJdE%253D",
+        "format": "application/pdf"
+      },
+      {
+        "@context": "http://girolabs.com.py/ocds/context-document.json",
+        "@type": "Document",
+        "@id": "9hIjOhq4IC0%3D",
+        "id": "9hIjOhq4IC0%3D",
+        "documentType": "awardNotice",
+        "title": "Resolución de Adjudicación",
+        "language": "es",
+        "url": "https://www.contrataciones.gov.py/documentos/download/adjudicacion/9hIjOhq4IC0%253D",
+        "format": "application/pdf"
+      }
+    ],
+    "period": {
+      "@context": "http://girolabs.com.py/ocds/context-period.json",
+      "@type": "Period",
+      "endDate": "2010-06-14T12:00:00-04:00",
+      "startDate": "2010-04-15T12:00:00-04:00"
+    },
+    "url": "https://www.contrataciones.gov.py/datos/id/contratos/193399-data-systems-sa-emisora-capital-abierto-2"
+  },
+  {
+    "@context": "http://girolabs.com.py/ocds/context-contract.json",
+    "@type": "Contract",
+    "@id": "https://www.contrataciones.gov.py/datos/id/contratos/193399-master-soft-srl-3",
+    "id": "193399-master-soft-srl-3",
+    "awardID": "193399-adquisicion-scanner",
+    "dncpContractCode": "CO-23019-10-0805",
+    "title": "Adquisición de Scanner",
+    "status": "active",
+    "value": {
+      "@context": "http://girolabs.com.py/ocds/context-value.json",
+      "@type": "Value",
+      "amount": 30030400,
+      "currency": "PYG"
+    },
+    "lots": [
+      {
+        "id": "nYZlDIKXpLc%3D",
+        "title": "Lote 1",
+        "items": [
+          "sZuyK1A%2BAH0%3D"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "@context": "http://girolabs.com.py/ocds/context-item.json",
+        "@type": "Items",
+        "@id": "sZuyK1A%2BAH0%3D",
+        "description": "Scanners",
+        "id": "sZuyK1A%2BAH0%3D",
+        "classification": {
+          "@context": "http://girolabs.com.py/ocds/context-classification.json",
+          "@type": "Clasification",
+          "@id": "https://www.contrataciones.gov.py/datos/api/v2/doc/catalogo/nivel-5/43211711-001",
+          "schema": "Catálogo de productos, bienes y servicios de la Dirección Nacional de Contrataciones Públicas del Paraguay",
+          "id": "43211711-001",
+          "description": "Catálogo de productos, bienes y servicios de la Dirección Nacional de Contrataciones Públicas del Paraguay Nivel 5, basado en UNSPSC",
+          "uri": "https://www.contrataciones.gov.py/datos/api/v2/doc/catalogo/nivel-5/43211711-001"
+        },
+        "quantity": 8,
+        "unit": {
+          "@context": "http://girolabs.com.py/ocds/context-unit.json",
+          "@type": "Unit",
+          "name": "Unidad",
+          "value": {
+            "@context": "http://girolabs.com.py/ocds/context-value.json",
+            "@type": "Value",
+            "amount": 3753800,
+            "currency": "PYG"
+          }
+        }
+      }
+    ],
+    "dateSigned": "2010-04-15T12:00:00-04:00",
+    "suppliers": {
+      "@context": "http://girolabs.com.py/ocds/context-organization.json",
+      "@type": "Organization",
+      "@id": "80007525-0",
+      "name": "MASTER SOFT SRL",
+      "identifier": {
+        "@context": "http://girolabs.com.py/ocds/context-identifier.json",
+        "@type": "Identifier",
+        "id": "80007525-0",
+        "legalName": "MASTER SOFT SRL",
+        "scheme": "Registro Único de Contribuyente emitido por el Ministerio de Hacienda del Gobierno de Paraguay"
+      },
+      "identifiers": {
+        "key": "193399-master-soft-srl-3"
+      }
+    },
+    "documents": [
+      {
+        "@context": "http://girolabs.com.py/ocds/context-document.json",
+        "@type": "Document",
+        "@id": "2S8yoOhxZc8%3D",
+        "id": "2S8yoOhxZc8%3D",
+        "documentType": "Cuadro Comparativo de Ofertas",
+        "title": "Cuadro Comparativo de Ofertas",
+        "language": "es",
+        "url": "https://www.contrataciones.gov.py/documentos/download/adjudicacion/2S8yoOhxZc8%253D",
+        "format": "application/pdf"
+      },
+      {
+        "@context": "http://girolabs.com.py/ocds/context-document.json",
+        "@type": "Document",
+        "@id": "Yu2KNStSJdE%3D",
+        "id": "Yu2KNStSJdE%3D",
+        "documentType": "evaluationReports",
+        "title": "Informe de Evaluación",
+        "language": "es",
+        "url": "https://www.contrataciones.gov.py/documentos/download/adjudicacion/Yu2KNStSJdE%253D",
+        "format": "application/pdf"
+      },
+      {
+        "@context": "http://girolabs.com.py/ocds/context-document.json",
+        "@type": "Document",
+        "@id": "9hIjOhq4IC0%3D",
+        "id": "9hIjOhq4IC0%3D",
+        "documentType": "awardNotice",
+        "title": "Resolución de Adjudicación",
+        "language": "es",
+        "url": "https://www.contrataciones.gov.py/documentos/download/adjudicacion/9hIjOhq4IC0%253D",
+        "format": "application/pdf"
+      }
+    ],
+    "period": {
+      "@context": "http://girolabs.com.py/ocds/context-period.json",
+      "@type": "Period",
+      "endDate": "2010-06-14T12:00:00-04:00",
+      "startDate": "2010-04-15T12:00:00-04:00"
+    },
+    "url": "https://www.contrataciones.gov.py/datos/id/contratos/193399-master-soft-srl-3"
+  }
+]

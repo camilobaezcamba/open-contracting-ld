@@ -1,0 +1,106 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dncp": "http://girolabs.com.py/ocds/dncp.owl#",
+    "@language": "es-419",
+    "proveedor": {
+      "@id": "dncp:Proveedor"
+    },
+    "slug": {
+      "@id": "dncp:identificadorDelProveedor",
+      "@type": "@id"
+    },
+    "ruc": {
+      "@id": "dncp:ruc",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "razon_social": {
+      "@id": "dncp:razonSocial",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "telefono": {
+      "@id": "dncp:telefono",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "email": {
+      "@id": "dncp:email",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "nombre_fantasia": {
+      "@id": "dncp:nombreDeFantasia",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "representante_legal": {
+      "@id": "dncp:representanteLegal",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "tipo_proveedor_codigo": {
+      "@id": "dncp:codigoDeTipoDeProveedor",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "tipo_proveedor": {
+      "@id": "dncp:tipoDeProvedor",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "tamanio_empresa_codigo": {
+      "@id": "dncp:codigoDeTama\u00f1oDeLaEmpresa",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "tamanio_empresa": {
+      "@id": "dncp:tama\u00f1oDeLaEmpresa",
+      "@type": "@id"
+    },
+    "tipo_actividad_codigo": {
+      "@id": "dncp:codigoDeTipoDeActividad",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "tipo_actividad": {
+      "@id": "dncp:tipoDeActividad",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "descripcion_actividades": {
+      "@id": "dncp:descripcionDeActividades",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "pagina_web": {
+      "@id": "dncp:paginaWeb",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "direccion": {
+      "@id": "dncp:direcci\u00f3n",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ciudad": {
+      "@id": "dncp:ciudad",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "departamento_codigo": {
+      "@id": "dncp:codigoDeDepartamento",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "departamento": {
+      "@id": "dncp:departamento",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "pais_codigo": {
+      "@id": "dncp:codigoDePais",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "pais": {
+      "@id": "dncp:pa\u00eds",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ubicacion_latitud": {
+      "@id": "dncp:latitudDeUbicacion",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ubicacion_longitud": {
+      "@id": "dncp:longitudDeLaUbicacion",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "etiquetas": {
+      "@id": "dncp:etiquetas",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }
+}

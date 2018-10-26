@@ -1,0 +1,1172 @@
+<rdf:RDF xmlns:base="http://www.contrataciones.gov.py/datos/def/dncp" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+    <owl:Ontology rdf:about="http://www.contrataciones.gov.py/datos/def/dncp/">
+        <dc:title>DNCP Calls for Bid Ontology</dc:title>
+        <dc:description>An ontology written for the DNCP Calls for Bid API</dc:description>
+    </owl:Ontology>
+
+    <owl:Class rdf:ID="Documentos">
+        <rdfs:comment xml:lang="en">Any attached files</rdfs:comment>
+        <rdfs:comment xml:lang="es">Documentos de la licitaciÃ³n (pliegos de bases y condiciones, adendas, aclaraciones)</rdfs:comment>
+        <rdfs:label xml:lang="en">Solicitation documents</rdfs:label>
+        <rdfs:label xml:lang="es">Documentos de la LicitaciÃ³n</rdfs:label>
+        
+    </owl:Class>
+
+    <owl:Class rdf:ID="Contrato">
+        <rdfs:comment xml:lang="en">Information from the contract creation phase of the procurement process. The contract section is used to provide details of contracts that have been entered into. Every contract needs to have a related award.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Datos del Contrato firmado con el proveedor adjudicado</rdfs:comment>
+        <rdfs:label xml:lang="en">Contract</rdfs:label>
+        <rdfs:label xml:lang="es">Contrato</rdfs:label>
+        
+    </owl:Class>
+
+    <owl:Class rdf:ID="TipoDeProcedimiento">
+        <rdfs:comment xml:lang="en">There are several different procurement procedures, the bidding are classified based on the law, in different types of procedures, the most part are open tender but in some cases they can be restricted or closed</rdfs:comment>
+        <rdfs:comment xml:lang="es">El nombre de la modalidad o tipo de procedimiento de selecciÃ³n de proveedores utilizado</rdfs:comment>
+        <rdfs:label xml:lang="en">Tender Type</rdfs:label>
+        <rdfs:label xml:lang="es">Tipo de Procedimiento</rdfs:label>
+        
+    </owl:Class>
+
+    <owl:Class rdf:ID="GrupoDeItems">
+        <rdfs:comment xml:lang="en">group of items required in the tender and identified by a number and a name.</rdfs:comment>
+        <rdfs:comment xml:lang="es">La agrupaciÃ³n de Items a ser solicitados por la convocante, que se encuentran identificados por un nÃºmero y un nombre.</rdfs:comment>
+        <rdfs:label xml:lang="en">Grupo</rdfs:label>
+        <rdfs:label xml:lang="es">Grupo de Items</rdfs:label>
+        
+    </owl:Class>
+
+    <owl:Class rdf:ID="Moneda">
+        <rdfs:comment xml:lang="en">The currency used in the tender for bid</rdfs:comment>
+        <rdfs:comment xml:lang="es">Tipo de divisa de pago del contrato, independiente a la moneda de cotizacion del contrato. Ej. Dolares, Euros, GuaranÃ­es</rdfs:comment>
+        <rdfs:label xml:lang="en">Currency</rdfs:label>
+        <rdfs:label xml:lang="es">Moneda</rdfs:label>
+        
+    </owl:Class>
+
+    <owl:Class rdf:ID="FuenteDeFinanciamiento">
+        <rdfs:comment xml:lang="en">A budget source represents the origin of the resources in a organisationâ€™s plan expressed in monetary terms, usually the allocation of resources is used as a measure of control accounts and organisational performance.</rdfs:comment>
+        <rdfs:comment xml:lang="es">ClasificaciÃ³n de la fuente de Financiamiento que permite conocer de donde se obtendran los recursos que financiarÃ¡n los pagos, es decir la fuente de origen de los recursos.</rdfs:comment>
+        <rdfs:label xml:lang="en">Founding Source</rdfs:label>
+        <rdfs:label xml:lang="es">Fuente de Financiamiento</rdfs:label>
+        
+    </owl:Class>
+
+    <owl:Class rdf:ID="ModificacionDeContrato">
+        <rdfs:comment xml:lang="en">The information to contract modifications (Amendment information)</rdfs:comment>
+        <rdfs:comment xml:lang="es">Modificaciones que el contrato haya sufrido</rdfs:comment>
+        <rdfs:label xml:lang="en">amendment</rdfs:label>
+        <rdfs:label xml:lang="es">ModificaciÃ³n de Contrato</rdfs:label>
+        
+    </owl:Class>
+
+    <owl:Class rdf:ID="Estado">
+        <rdfs:comment xml:lang="en">Indicates the stage of the bidding</rdfs:comment>
+        <rdfs:comment xml:lang="es">Indica en en quÃ© fase del ciclo de vida de la licitaciÃ³n se encuentra actualmente el procedimiento, asÃ­ tambiÃ©n marca el evento que es puesto a conocimiento pÃºblico</rdfs:comment>
+        <rdfs:label xml:lang="en">Bid status</rdfs:label>
+        <rdfs:label xml:lang="es">Estado de la LicitaciÃ³n</rdfs:label>
+        
+    </owl:Class>
+
+    <owl:Class rdf:ID="TipoGarantiaDeOfertas">
+        <rdfs:comment xml:lang="en">Is a sum of money lodged by a contractor with a third party, which is forfeited in defined circumstances. The purpose is to compensate the client for lack of contract performance.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Tipo de Documento que debe presentar el oferente o proponente para garantizar su propuesta</rdfs:comment>
+        <rdfs:label xml:lang="en">Tender Security</rdfs:label>
+        <rdfs:label xml:lang="es">Tipo de GarantÃ­a de  Mantenimiento de Oferta</rdfs:label>
+        
+    </owl:Class>
+
+    <owl:Class rdf:ID="Categoria">
+        <rdfs:comment xml:lang="en">Our goods and services category allows potential suppliers to access information regarding tenders issued by the government by clustering tenders of services or goods of similar nature, thus allowing the interested parties to know in which tenders they can submit an offer according to their economic activity</rdfs:comment>
+        <rdfs:comment xml:lang="es">Agrupa las licitaciones en bienes y servicios con carÃ¡cteristicas similares por rubro econÃ³mico del mercado</rdfs:comment>
+        <rdfs:label xml:lang="en">Category</rdfs:label>
+        <rdfs:label xml:lang="es">CategorÃ­a</rdfs:label>
+        
+    </owl:Class>
+
+    <owl:Class rdf:ID="SistemaDeAdjudicacion">
+        <rdfs:comment xml:lang="en">The contracts can be awarded to more than one supplier in the same tender depending grouping of goods and services required for the bidder. Award are</rdfs:comment>
+        <rdfs:comment xml:lang="es">Permite dividir el objeto de la licitaciÃ³n en partidas de adjudicaciÃ³n, de manera a determinar si lo licitado puede ser adjudicado a uno o mÃ¡s proveedores segÃºn la cantidad de items o agrupaciÃ³n de Ã­tems en los que se divida.</rdfs:comment>
+        <rdfs:label xml:lang="en">Award System</rdfs:label>
+        <rdfs:label xml:lang="es">Sistema de AdjudicaciÃ³n</rdfs:label>
+        
+    </owl:Class>
+
+    <owl:Class rdf:ID="FormaDePago">
+        <rdfs:comment xml:lang="en">Describes the timing and scaling of a contractorâ€™s remuneration.</rdfs:comment>
+        <rdfs:comment xml:lang="es">determina la forma, mecanismo, frecuencia, ocurrencia o evento que marcarÃ¡ el momento de la realizaciÃ³n del o los pagos como consecuencia de la ejecuciÃ³n contractual</rdfs:comment>
+        <rdfs:label xml:lang="en">Payment</rdfs:label>
+        <rdfs:label xml:lang="es">Forma de Pago</rdfs:label>
+        
+    </owl:Class>
+
+    <owl:Class rdf:ID="UnidadDeMedida">
+        <rdfs:comment xml:lang="en">The unit used to quantify an item, for example length, mass, volume, area, number etc.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Unidad de medida que se utiliza para la cotizaciÃ³n</rdfs:comment>
+        <rdfs:label xml:lang="en">Unity</rdfs:label>
+        <rdfs:label xml:lang="es">Unidad de Medida</rdfs:label>
+        
+    </owl:Class>
+
+    <owl:Class rdf:ID="Item">
+        <rdfs:comment xml:lang="en">An item of supply or service specified in a solicitation for which the vendor must specify a separate price.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Uno o mÃ¡s items solicitados por el convocante, sobre el cual los proveedores deben presentar su propuesta</rdfs:comment>
+        <rdfs:label xml:lang="en">Item</rdfs:label>
+        <rdfs:label xml:lang="es">Ãtem</rdfs:label>
+        
+    </owl:Class>
+
+    <owl:Class rdf:ID="Adjudicacion">
+        <rdfs:comment xml:lang="en">Information from the award phase of the contracting process. There may be more than one award per contracting process e.g. because the contract is split amongst different providers</rdfs:comment>
+        <rdfs:comment xml:lang="es">Resultado de la LicitaciÃ³n en la cual se determina a los proveedores adjudicados y el monto adjudicado. Puede haber mÃ¡s de un adjudicado por procedimiento</rdfs:comment>
+        <rdfs:label xml:lang="en">Award</rdfs:label>
+        <rdfs:label xml:lang="es">AdjudicaciÃ³n</rdfs:label>
+        
+    </owl:Class>
+
+    <owl:Class rdf:ID="Convocatoria">
+        <rdfs:comment xml:lang="en">The calls are issued for the purchase of goods and services including professional services and construction services, contains a list and summary of information about competitive call documents.</rdfs:comment>
+        <rdfs:comment xml:lang="es">El aviso o llamado a licitaciÃ³n pÃºblica que contiene informaciÃ³n bÃ¡sica par que los oferentes puedan determinar su interes de participar</rdfs:comment>
+        <rdfs:label xml:lang="en">Calls for bid</rdfs:label>
+        <rdfs:label xml:lang="es">Convocatoria</rdfs:label>
+        
+    </owl:Class>
+
+    <owl:Class rdf:ID="Planificacion">
+        <rdfs:comment xml:lang="en">The planning section can be used to describe the background to a contracting process. This may include details of the budget from which funds are drawn. This is designed to allow both machine-readable linkable data about budgets</rdfs:comment>
+        <rdfs:comment xml:lang="es">La forma en la que la entidad planifica la realizaciÃ³n de su licitaciÃ³n, contiene datos presupuestarios que pueden vincularse a otros sistemas asÃ­ como fechas estimadas de inicio del procedimiento</rdfs:comment>
+        <rdfs:label xml:lang="en">Planning</rdfs:label>
+        <rdfs:label xml:lang="es">PlanificaciÃ³n</rdfs:label>
+        
+    </owl:Class>
+
+    <owl:Class rdf:ID="Proveedor">
+        <rdfs:comment xml:lang="en">An invitation to suppliers to submit a bid, quotation or offer.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Lista de invitados a presentar ofertas en un procedimiento de contrataciÃ³n o participantes</rdfs:comment>
+        <rdfs:label xml:lang="en">suppliers</rdfs:label>
+        <rdfs:label xml:lang="es">Proveedores</rdfs:label>
+        
+    </owl:Class>
+
+
+    
+
+    <owl:ObjectProperty>
+        <rdfs:domain rdf:resource="#Planificacion"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        
+        
+        
+        
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="fechaLimiteDeEntregaDeOfertas">
+        <rdfs:domain rdf:resource="#Convocatoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Fecha/hora"></rdfs:range>
+        <rdfs:comment xml:lang="en">the deadline for submission</rdfs:comment>
+        <rdfs:comment xml:lang="es">Fecha y hora lÃ­mite para que el oferente presente su sobre oferta</rdfs:comment>
+        <rdfs:label xml:lang="en">Closing date</rdfs:label>
+        <rdfs:label xml:lang="es">Plazo de entrega de ofertas</rdfs:label>
+        <rdfs:label xml:lang="es"> tÃ©rmino de propuesta</rdfs:label>
+        <rdfs:label xml:lang="es"> fecha lÃ­mite para la entrega de ofertas</rdfs:label>
+        <rdfs:label xml:lang="es"> fecha limite de propuestas</rdfs:label>
+        <rdfs:label xml:lang="es">Fecha lÃ­mite de Entrega de Ofertas</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="modificacionesDelContrato">
+        <rdfs:domain rdf:resource="#Contrato"></rdfs:domain>
+        <rdfs:range rdf:resource="#ModificaciÃ³n Contrato"></rdfs:range>
+        <rdfs:comment xml:lang="en">Amendment information</rdfs:comment>
+        <rdfs:comment xml:lang="es">La Lista de Modiificaciones de Contratos si existiesen.</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">Modificaciones</rdfs:label>
+        <rdfs:label xml:lang="es"> Adendas</rdfs:label>
+        <rdfs:label xml:lang="es"> Addendum</rdfs:label>
+        <rdfs:label xml:lang="es"> extenciones</rdfs:label>
+        <rdfs:label xml:lang="es"> Ampliaciones</rdfs:label>
+        <rdfs:label xml:lang="es"> enmienda</rdfs:label>
+        <rdfs:label xml:lang="es"> Convenios Modificatorios</rdfs:label>
+        <rdfs:label xml:lang="es">Modificaciones del Contrato</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="identificacionDeFormasDePago">
+        <rdfs:domain rdf:resource="#FormaDePago"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        
+        
+        
+        <rdfs:label xml:lang="es">IdentificaciÃ³n de Formas de Pago</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="nombreDelArchivo">
+        <rdfs:domain rdf:resource="#Documentos"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        
+        
+        
+        <rdfs:label xml:lang="es">Nombre del Archivo</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="fechaDeFirmaDelContrato">
+        <rdfs:domain rdf:resource="#Contrato"></rdfs:domain>
+        <rdfs:range rdf:resource="#Fecha"></rdfs:range>
+        <rdfs:comment xml:lang="en">The date the contract was signed</rdfs:comment>
+        <rdfs:comment xml:lang="es">La fecha de la firma del contrato. Puede ser distinta a la fecha de inicio de vigencia.</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">Fecha de firma del Contrato</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="observaciones">
+        <rdfs:domain rdf:resource="#Convocatoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#TextoLargo"></rdfs:range>
+        <rdfs:comment xml:lang="en">Additional information about the tender</rdfs:comment>
+        <rdfs:comment xml:lang="es">Comentarios informativos para los interesados</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">observaciones</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="identificadorDeLaCategoria">
+        <rdfs:domain rdf:resource="#Categoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Numerico"></rdfs:range>
+        
+        <rdfs:comment xml:lang="es">Identificador unico de la catergoria  de bienes o servicios considerando las clasificaciones en registros histÃ³ricos</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">Identificador de la categorÃ­a</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="fechaLimiteDeRespuesta">
+        <rdfs:domain rdf:resource="#Convocatoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Fecha/hora"></rdfs:range>
+        <rdfs:comment xml:lang="en">The deadline for de purchaser answer queries</rdfs:comment>
+        <rdfs:comment xml:lang="es">Fecha lÃ­mite de la convocante o licitante para responder a las consultas que le fueron planteadas y emitir las aclaraciones correspondientes</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">Plazo de respuesta</rdfs:label>
+        <rdfs:label xml:lang="es"> tiempo de respuesta</rdfs:label>
+        <rdfs:label xml:lang="es"> fecha de respuesta</rdfs:label>
+        <rdfs:label xml:lang="es"> fecha de aclaraciones</rdfs:label>
+        <rdfs:label xml:lang="es"> publicaciÃ³n de aclaraciones</rdfs:label>
+        <rdfs:label xml:lang="es">Fecha lÃ­mite  de Respuesta</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="nombreDeLaCategoria">
+        <rdfs:domain rdf:resource="#Categoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        <rdfs:comment xml:lang="en">Name of the grouping of related goods or services based on similar characteristics</rdfs:comment>
+        <rdfs:comment xml:lang="es">El nombre de la categorÃ­a que permite agrupar las contrataciones dependiendo de la actividad economica vinculada al proveedor</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">nombre de la categoria</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="fechaDePublicacionDeLaLicitacion">
+        <rdfs:domain rdf:resource="#Planificacion"></rdfs:domain>
+        <rdfs:range rdf:resource="#Fecha/hora"></rdfs:range>
+        <rdfs:comment xml:lang="en">Date call was issued, Date of the first publication of the invitation to bid</rdfs:comment>
+        <rdfs:comment xml:lang="es">Fecha en la cual fue publicada por primera vez la convocatoria a licitaciÃ³n, es decir, la fecha en la que fue puesta a conocimiento pÃºblico</rdfs:comment>
+        <rdfs:label xml:lang="en">issue date</rdfs:label>
+        <rdfs:label xml:lang="es">Fecha de publicaciÃ³n de la licitaciÃ³n</rdfs:label>
+        <rdfs:label xml:lang="es"> Fecha de publicaciÃ³n de la Convocatoria</rdfs:label>
+        <rdfs:label xml:lang="es">Fecha de PublicaciÃ³n de la licitaciÃ³n</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="oferentes">
+        <rdfs:domain rdf:resource="#Adjudicacion"></rdfs:domain>
+        <rdfs:range rdf:resource="#Proveedor"></rdfs:range>
+        <rdfs:comment xml:lang="en">Person or entity submitting a bid to perform a contract for goods, services or both.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Personas o firmas que presentaron sus ofertas en la licitaciÃ³n con la intenciÃ³n de obtener un contrato, independientemente a que hayan sido adjudicados.</rdfs:comment>
+        <rdfs:label xml:lang="en">offerors</rdfs:label>
+        <rdfs:label xml:lang="es">Postores</rdfs:label>
+        <rdfs:label xml:lang="es"> Ofertentes</rdfs:label>
+        <rdfs:label xml:lang="es"> Propuestas</rdfs:label>
+        <rdfs:label xml:lang="es"> Cantidad de Participantes</rdfs:label>
+        <rdfs:label xml:lang="es"> Participantes</rdfs:label>
+        <rdfs:label xml:lang="es">Oferentes</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="lugarDeConsulta">
+        <rdfs:domain rdf:resource="#Convocatoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        <rdfs:comment xml:lang="en">consult place</rdfs:comment>
+        <rdfs:comment xml:lang="es">Lugar o medio a travÃ©s del cual los interesados remitirÃ¡n sus consultas al convocante</rdfs:comment>
+        <rdfs:label xml:lang="en">consult place</rdfs:label>
+        <rdfs:label xml:lang="es">sitio de consulta</rdfs:label>
+        <rdfs:label xml:lang="es"> direcciÃ³n de consulta</rdfs:label>
+        <rdfs:label xml:lang="es">Lugar de Consulta</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="fechaDeAdjudicacion">
+        <rdfs:domain rdf:resource="#Adjudicacion"></rdfs:domain>
+        <rdfs:range rdf:resource="#Fecha/hora"></rdfs:range>
+        <rdfs:comment xml:lang="en">The date of the contract award.</rdfs:comment>
+        <rdfs:comment xml:lang="es">La fecha en que el licitante resolviÃ³ el resultado de la convocatoria.</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">Fecha de AdjudicaciÃ³n</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="metodoDeSeleccion">
+        <rdfs:domain rdf:resource="#Convocatoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        <rdfs:comment xml:lang="en">Indicate the different methods of selection of consultants accepted</rdfs:comment>
+        <rdfs:comment xml:lang="es">Criterio de SelecciÃ³n de los proveedores (de uso habitual en consutorÃ­as)</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">Metodo de selecciÃ³n</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="categoriaDeBienesYServicios">
+        <rdfs:domain rdf:resource="#Planificacion"></rdfs:domain>
+        <rdfs:range rdf:resource="#CategorÃ­a"></rdfs:range>
+        <rdfs:comment xml:lang="en">Our goods and services category allows potential suppliers to access information regarding tenders issued by the government by clustering tenders of services or goods of similar nature, thus allowing the interested parties to know in which tenders they can submit an offer according to their economic activity</rdfs:comment>
+        <rdfs:comment xml:lang="es">rubro econÃ³mico que engloba a ciertos contratos</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">rubro</rdfs:label>
+        <rdfs:label xml:lang="es"> categoria</rdfs:label>
+        <rdfs:label xml:lang="es"> clasificaciÃ³n de rubros</rdfs:label>
+        <rdfs:label xml:lang="es">CategorÃ­a de Bienes y Servicios</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="documentosDeLaLicitacion">
+        <rdfs:domain rdf:resource="#Convocatoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Documento"></rdfs:range>
+        <rdfs:comment xml:lang="en">Any attached files</rdfs:comment>
+        <rdfs:comment xml:lang="es">Documentos de la llicitaciÃ³n (pliegos de bases y condiciones, adendas, aclaraciones)</rdfs:comment>
+        <rdfs:label xml:lang="en">Attached Files</rdfs:label>
+        <rdfs:label xml:lang="es">Documentos de la licitaciÃ³n</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="nombreOriginarioDelCatalogo">
+        <rdfs:domain rdf:resource="#Item"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        <rdfs:comment xml:lang="en">The generic name of de goods and service using de UNSPSC</rdfs:comment>
+        <rdfs:comment xml:lang="es">DenominaciÃ³n genÃ©rica del bien o servicio de acuerdo al cÃ³digo utilizado.</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">Nombre originario del catÃ¡logo</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="cantidad">
+        <rdfs:domain rdf:resource="#Item"></rdfs:domain>
+        <rdfs:range rdf:resource="#Numerico"></rdfs:range>
+        <rdfs:comment xml:lang="en">quantity of units to be ordered or listed</rdfs:comment>
+        <rdfs:comment xml:lang="es">Cantidad de las unidades a ser solicitadas o cotizadas</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">Cantidad</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="identificadorDelTipoDeProcedimiento">
+        <rdfs:domain rdf:resource="#TipoDeProcedimiento"></rdfs:domain>
+        <rdfs:range rdf:resource="#Numerico"></rdfs:range>
+        
+        <rdfs:comment xml:lang="es">identifcador del tipo de procedimiento dependiente de las reglas de contrataciÃ³n y al organismo regulador o emisor de las mismas (DNCP, BID, BM)</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">Tipo de Procedimiento</rdfs:label>
+        <rdfs:label xml:lang="es">Identificador del Tipo de Procedimiento</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="numeroDeOrdenDelLote">
+        <rdfs:domain rdf:resource="#GrupoDeItems"></rdfs:domain>
+        <rdfs:range rdf:resource="#Numerico"></rdfs:range>
+        
+        <rdfs:comment xml:lang="es">Ordenamiento numÃ©rico secuencial en el cual se muestran los items a ser licitados</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">NÃºmero secuencial</rdfs:label>
+        <rdfs:label xml:lang="es"> numeraciÃ³n de los Ã­tems</rdfs:label>
+        <rdfs:label xml:lang="es">NÃºmero de Orden del Lote</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="fechaDeJuntaDeAclaraciones">
+        <rdfs:domain rdf:resource="#Convocatoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Fecha/hora"></rdfs:range>
+        <rdfs:comment xml:lang="en">The date of de Information meeting</rdfs:comment>
+        <rdfs:comment xml:lang="es">fecha y hora en la cual se realizarÃ¡ la junta o reuniÃ³n de aclaraciones</rdfs:comment>
+        <rdfs:label xml:lang="en">onsite meeting date</rdfs:label>
+        <rdfs:label xml:lang="es">Fecha de Junta de Aclaraciones</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="estadoDeLaLicitacion">
+        <rdfs:domain rdf:resource="#Planificacion"></rdfs:domain>
+        <rdfs:range rdf:resource="#Estado"></rdfs:range>
+        <rdfs:comment xml:lang="en">This field contains information regarding what stage the bidding is process currently in. It can also reflect a special status of a bidding process, when certain events that don&#39;t belong in the normal life cycle of the process take place (an intervention by the procurement office due to a formal complain, for example)</rdfs:comment>
+        <rdfs:comment xml:lang="es">Indica en en quÃ© fase del ciclo de vida de la licitaciÃ³n se encuentra actualmente el procedimiento, asÃ­ tambiÃ©n marca el evento que es puesto a conocimiento pÃºblico</rdfs:comment>
+        <rdfs:label xml:lang="en">Bid status</rdfs:label>
+        <rdfs:label xml:lang="en"> STATUS OF PROCUREMENT</rdfs:label>
+        <rdfs:label xml:lang="es">etapa</rdfs:label>
+        <rdfs:label xml:lang="es"> fase</rdfs:label>
+        <rdfs:label xml:lang="es"> hito</rdfs:label>
+        <rdfs:label xml:lang="es"> evento</rdfs:label>
+        <rdfs:label xml:lang="es">Estado de la licitaciÃ³n</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="identificacionDeLa/sFuente/sDeFinanciamiento">
+        <rdfs:domain rdf:resource="#FuenteDeFinanciamiento"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        
+        
+        
+        <rdfs:label xml:lang="es">IdentificaciÃ³n de la/s fuente/s de financiamiento</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="codigoDeLaCategoria">
+        <rdfs:domain rdf:resource="#Categoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Numerico"></rdfs:range>
+        <rdfs:comment xml:lang="en">Number of the grouping of related goods or services based on similar characteristics</rdfs:comment>
+        <rdfs:comment xml:lang="es">NÃºmero de la CategorÃ­a que evita el uso del nombre de la misma o su descripciÃ³n</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">cÃ³digo de la categoria</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="razonSocial">
+        <rdfs:domain rdf:resource="#Proveedor"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        <rdfs:comment xml:lang="en">company name</rdfs:comment>
+        <rdfs:comment xml:lang="es">Nombre de la empresa</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">Nombre de la empresa</rdfs:label>
+        <rdfs:label xml:lang="es"> denominaciÃ³n legal</rdfs:label>
+        <rdfs:label xml:lang="es"> nombre de la firma</rdfs:label>
+        <rdfs:label xml:lang="es">razon social</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="identificacionDelContrato">
+        <rdfs:domain rdf:resource="#Contrato"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        
+        
+        
+        <rdfs:label xml:lang="es">IdentificaciÃ³n del Contrato</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="fechaLimiteDeConsulta">
+        <rdfs:domain rdf:resource="#Convocatoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Fecha/hora"></rdfs:range>
+        <rdfs:comment xml:lang="en">The deadline for stakeholders request clarifications</rdfs:comment>
+        <rdfs:comment xml:lang="es">Fecha y hora hasta la cual los interesados podrÃ¡n formular sus consultas o solicitar las aclaraciones</rdfs:comment>
+        <rdfs:label xml:lang="en">consult date</rdfs:label>
+        <rdfs:label xml:lang="es">Plazo de consulta</rdfs:label>
+        <rdfs:label xml:lang="es"> tiempo de consulta</rdfs:label>
+        <rdfs:label xml:lang="es"> fin de consulta</rdfs:label>
+        <rdfs:label xml:lang="es"> plazo de aclaraciones</rdfs:label>
+        <rdfs:label xml:lang="es"> plazo de observaciones</rdfs:label>
+        <rdfs:label xml:lang="es"> fecha lÃ­mite de consultas</rdfs:label>
+        <rdfs:label xml:lang="es"> fecha lÃ­mite de aclaraciones.</rdfs:label>
+        <rdfs:label xml:lang="es">Fecha lÃ­mite de Consulta</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="fechaDelConvenioModificatorio">
+        <rdfs:domain rdf:resource="#ModificacionDeContrato"></rdfs:domain>
+        <rdfs:range rdf:resource="#Fecha"></rdfs:range>
+        
+        <rdfs:comment xml:lang="es">Fecha del convenio que modifica el contrato. Solo aplica para las modificaciones de tipo â€œAmpliaciÃ³n de Montoâ€ y â€œAmpliaciÃ³n de Plazoâ€.</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">Fecha del Convenio Modificatorio</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="idDelLlamado">
+        <rdfs:domain rdf:resource="#Planificacion"></rdfs:domain>
+        <rdfs:range rdf:resource="#Numero"></rdfs:range>
+        
+        <rdfs:comment xml:lang="es">Normalmente hay una licitaciÃ³n por cada planificaciÃ³n (PAC) no obstante eventualmente podrÃ­a existir mÃ¡s de una adjudicaciÃ³n a la misma licitaciÃ³n.</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">NÃºmero de licitaciÃ³n</rdfs:label>
+        <rdfs:label xml:lang="es">ID del Llamado</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="tipoDeAdenda">
+        <rdfs:domain rdf:resource="#ModificacionDeContrato"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        
+        <rdfs:comment xml:lang="es">AquÃ­ se identifica quÃ© tipo de modificaciÃ³n ha sufrido el contrato, si se trata de un mayor valor a causa de adicionales o reajustes de precio, si se trata de la extensiÃ³n del plazo contractual o de la modificaciÃ³n de otra clÃ¡usula.</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">Motivo</rdfs:label>
+        <rdfs:label xml:lang="es">Tipo de Adenda</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="fechaDeAperturaDeOfertasFisicas">
+        <rdfs:domain rdf:resource="#Convocatoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Fecha/hora"></rdfs:range>
+        <rdfs:comment xml:lang="en">Date &amp; hour to opening</rdfs:comment>
+        <rdfs:comment xml:lang="es">Fecha y hora en la cual se abriran las ofertas</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">fecha de apertura de sobres</rdfs:label>
+        <rdfs:label xml:lang="es"> apertura de sobres de ofertas</rdfs:label>
+        <rdfs:label xml:lang="es"> apertura de propuestas</rdfs:label>
+        <rdfs:label xml:lang="es">Fecha de Apertura de Ofertas FÃ­sicas</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="codigoDeContratacion">
+        <rdfs:domain rdf:resource="#Contrato"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        
+        
+        
+        <rdfs:label xml:lang="es">CÃ³digo de ContrataciÃ³n</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="codigoDelTipoDeProcedimiento">
+        <rdfs:domain rdf:resource="#TipoDeProcedimiento"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        <rdfs:comment xml:lang="en">The code of the  different procurement procedures</rdfs:comment>
+        <rdfs:comment xml:lang="es">identifcador del tipo de procedimiento independiente de las reglas de contrataciÃ³n y al organismo regulador o emisor de las mismas (DNCP, BID, BM)</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">CÃ³digo del Tipo de Procedimiento</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="email">
+        <rdfs:domain rdf:resource="#Proveedor"></rdfs:domain>
+        <rdfs:range rdf:resource="#Email"></rdfs:range>
+        <rdfs:comment xml:lang="en">Email</rdfs:comment>
+        <rdfs:comment xml:lang="es">Email</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">e-mail</rdfs:label>
+        <rdfs:label xml:lang="es"> correo electrÃ³nico</rdfs:label>
+        <rdfs:label xml:lang="es">email</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="nombreDefinidoPorLaConvocante">
+        <rdfs:domain rdf:resource="#GrupoDeItems"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        <rdfs:comment xml:lang="en">Specific name of the goods and service depending on the requirements of the contract autority</rdfs:comment>
+        <rdfs:comment xml:lang="es">DenominaciÃ³n especÃ­fica del bien dependiendo de los requerimientos de la convocante</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">Nombre definido por la convocante</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="lugarDeEntregaDeOfertasFisicas">
+        <rdfs:domain rdf:resource="#Convocatoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        <rdfs:comment xml:lang="en">The address shown in the Request, to which an Offer must be submitted tender</rdfs:comment>
+        <rdfs:comment xml:lang="es">Lugar en el cual el oferente debe presentar su sobre oferta</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">direcciÃ³n de entrega de ofertas</rdfs:label>
+        <rdfs:label xml:lang="es"> sitio de presentaciÃ³n de ofertas</rdfs:label>
+        <rdfs:label xml:lang="es"> sitio de presentaciÃ³n de propuestasm</rdfs:label>
+        <rdfs:label xml:lang="es"> lugar de presentaciÃ³n de sobres</rdfs:label>
+        <rdfs:label xml:lang="es">Lugar de Entrega de Ofertas FÃ­sicas</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="montoAdjudicado">
+        <rdfs:domain rdf:resource="#Contrato"></rdfs:domain>
+        <rdfs:range rdf:resource="#Numero"></rdfs:range>
+        <rdfs:comment xml:lang="en">The total value of this contract.</rdfs:comment>
+        <rdfs:comment xml:lang="es">El valor del contrato por el total de los Ã­tems adjudicados a este proveedor.</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">Monto del Contrato</rdfs:label>
+        <rdfs:label xml:lang="es"> Valor Contratado.</rdfs:label>
+        <rdfs:label xml:lang="es">Monto Adjudicado</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="montoTotalAdjudicado">
+        <rdfs:domain rdf:resource="#Adjudicacion"></rdfs:domain>
+        <rdfs:range rdf:resource="#Numero"></rdfs:range>
+        <rdfs:comment xml:lang="en">The total value of this award. There may be more than one award per procurement.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Valor total de la AdjudicaciÃ³n, considerando que una misma licitaciÃ³n puede tener mÃ¡s de un adjudicado. Este campo refleja cuanto efectivamente se ha destinado a la contrataciÃ³n independientemente a la cantidad de adjudicaciÃ³n derivados de la misma.</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">Valor de la AdjudicaciÃ³n</rdfs:label>
+        <rdfs:label xml:lang="es"> Monto Adjudicado</rdfs:label>
+        <rdfs:label xml:lang="es"> Valor Adjudicado</rdfs:label>
+        <rdfs:label xml:lang="es">Monto Total Adjudicado</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="identificacionDeLaConvocatoria">
+        <rdfs:domain rdf:resource="#Adjudicacion"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        
+        
+        
+        <rdfs:label xml:lang="es">IdentificaciÃ³n de la Convocatoria</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="lugarDeEntregaDeLaAdquisicion">
+        <rdfs:domain rdf:resource="#Convocatoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        <rdfs:comment xml:lang="en">The place to deliver goods after receipt of order</rdfs:comment>
+        <rdfs:comment xml:lang="es">Lugar de cumplimiento de la prestaciÃ³n</rdfs:comment>
+        <rdfs:label xml:lang="en">Buyer Location</rdfs:label>
+        <rdfs:label xml:lang="es">Lugar de cumplimiento</rdfs:label>
+        <rdfs:label xml:lang="es"> sitio de cumplimiento</rdfs:label>
+        <rdfs:label xml:lang="es"> lugar de ejecuciÃ³n de prestaciÃ³n.</rdfs:label>
+        <rdfs:label xml:lang="es">Lugar de entrega de la adquisiciÃ³n</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="etiquetas">
+        <rdfs:domain rdf:resource="#Planificacion"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto[]"></rdfs:range>
+        
+        <rdfs:comment xml:lang="es">Provee un resumen y tipifica el registro</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">Etiquetas</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="unidadDeMedida">
+        <rdfs:domain rdf:resource="#UnidadDeMedida"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        <rdfs:comment xml:lang="en">The unit used to quantify an item, for example length, mass, volume, area, number etc.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Unidad de medida que se utiliza para la cotizaciÃ³n</rdfs:comment>
+        <rdfs:label xml:lang="en">unit of measure</rdfs:label>
+        <rdfs:label xml:lang="es">Unidad de Medida</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="identificadorDelEstado">
+        <rdfs:domain rdf:resource="#Estado"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        
+        
+        
+        <rdfs:label xml:lang="es">Identificador del Estado</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="telefonoDelContacto">
+        <rdfs:domain rdf:resource="#Convocatoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Telefono"></rdfs:range>
+        <rdfs:comment xml:lang="en">Contact phone number</rdfs:comment>
+        <rdfs:comment xml:lang="es">Numero telefÃ³nico del contacto</rdfs:comment>
+        <rdfs:label xml:lang="en">Buyer Phone</rdfs:label>
+        <rdfs:label xml:lang="es">NÃºmero de TelÃ©fono del Contacto</rdfs:label>
+        <rdfs:label xml:lang="es">TelÃ©fono del Contacto</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="identificacionDeLaAdjudicacion">
+        <rdfs:domain rdf:resource="#Adjudicacion"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        
+        <rdfs:comment xml:lang="es">Normalmente hay una adjudicaciÃ³n, por licitaciÃ³n, no obstante eventualmente podrÃ­a existir mÃ¡s de una adjudicaciÃ³n a la misma licitaciÃ³n.</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">IdentificaciÃ³n de la AdjudicaciÃ³n</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="monto">
+        <rdfs:domain rdf:resource="#ModificacionDeContrato"></rdfs:domain>
+        <rdfs:range rdf:resource="#NÃºmero"></rdfs:range>
+        
+        <rdfs:comment xml:lang="es">El valor de la modificaciÃ³n de contrato. Solo aplica para las modificaciones de tipo â€œAmpliaciÃ³n de Montoâ€, RenovaciÃ³n de LocaciÃ³n de Inmueble y Reajuste</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">Monto</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="identificadorDeLaConvocatoria">
+        <rdfs:domain rdf:resource="#Convocatoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        
+        
+        
+        <rdfs:label xml:lang="es">Identificador de la Convocatoria</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="sistemaDeAdjudicacion">
+        <rdfs:domain rdf:resource="#Convocatoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Sistema de AdjudicaciÃ³n"></rdfs:range>
+        <rdfs:comment xml:lang="en">The contracts can be awarded to more than one supplier in the same tender depending grouping of goods and services required for the bidder. Award are classified by total required, by lot, or by item, and in some cases in multiple award</rdfs:comment>
+        <rdfs:comment xml:lang="es">Permite dividir el objeto de la licitaciÃ³n en partidas de adjudicaciÃ³n, de manera a determinar si lo licitado puede ser adjudicado a uno o mÃ¡s proveedores segÃºn la cantidad de items o agrupaciÃ³n de Ã­tems en los que se divida.</rdfs:comment>
+        <rdfs:label xml:lang="en">award</rdfs:label>
+        <rdfs:label xml:lang="en"> adjudication</rdfs:label>
+        <rdfs:label xml:lang="en"> adjudgment</rdfs:label>
+        <rdfs:label xml:lang="en"> Award criterion</rdfs:label>
+        <rdfs:label xml:lang="es">Partida de adjudicaciÃ³nm unidad de adjudicaciÃ³n</rdfs:label>
+        <rdfs:label xml:lang="es"> forma de cotizaciÃ³n</rdfs:label>
+        <rdfs:label xml:lang="es">Sistema de AdjudicaciÃ³n</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="ruc">
+        <rdfs:domain rdf:resource="#Proveedor"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        <rdfs:comment xml:lang="en">The Taxpayer Identification number or code</rdfs:comment>
+        <rdfs:comment xml:lang="es">NÃºmero del Registro o CÃ©dula Tributaria</rdfs:comment>
+        <rdfs:label xml:lang="en">Taxpayer Identification Number</rdfs:label>
+        <rdfs:label xml:lang="en"> Taxpayer Registration</rdfs:label>
+        <rdfs:label xml:lang="en"> Tax Payer Registration</rdfs:label>
+        <rdfs:label xml:lang="es">Registro de Contribuyente</rdfs:label>
+        <rdfs:label xml:lang="es"> Identificador del Contribuyente</rdfs:label>
+        <rdfs:label xml:lang="es"> Cedula Tributaria</rdfs:label>
+        <rdfs:label xml:lang="es"> IdentificaciÃ³n tributaria</rdfs:label>
+        <rdfs:label xml:lang="es">  NÃºmero de IdentificaciÃ³n Fiscal</rdfs:label>
+        <rdfs:label xml:lang="es"> identificador fiscal</rdfs:label>
+        <rdfs:label xml:lang="es">RUC</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="listaDeInvitados">
+        <rdfs:domain rdf:resource="#Convocatoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Proveedor"></rdfs:range>
+        <rdfs:comment xml:lang="en">An invitation to suppliers to submit a bid, quotation or offer.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Lista de invitados a presentar ofertas en un procedimiento de contrataciÃ³n</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">Lista de Invitados</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="moneda">
+        <rdfs:domain rdf:resource="#Planificacion"></rdfs:domain>
+        <rdfs:range rdf:resource="#Moneda"></rdfs:range>
+        <rdfs:comment xml:lang="en">The currency used in the tender for bid</rdfs:comment>
+        <rdfs:comment xml:lang="es">Tipo de divisa de pago del contrato, independiente a la moneda de cotizacion del contrato. Ej. Dolares, Euros, GuaranÃ­es.</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">moneda</rdfs:label>
+        <rdfs:label xml:lang="es"> denominaciÃ³n de la moneda</rdfs:label>
+        <rdfs:label xml:lang="es"> tipo de divisa</rdfs:label>
+        <rdfs:label xml:lang="es"> tipo de moneda</rdfs:label>
+        <rdfs:label xml:lang="es">Moneda</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="indentificadorDelDocumento">
+        <rdfs:domain rdf:resource="#Documentos"></rdfs:domain>
+        <rdfs:range rdf:resource="#Numerico"></rdfs:range>
+        
+        
+        
+        <rdfs:label xml:lang="es">Indentificador del documento</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="identificadorDelTipoDeGarantia">
+        <rdfs:domain rdf:resource="#TipoGarantiaDeOfertas"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        
+        
+        
+        <rdfs:label xml:lang="es">Identificador del tipo de GarantÃ­a</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="convocante">
+        <rdfs:domain rdf:resource="#Planificacion"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        <rdfs:comment xml:lang="en">The public body buying goods or services.</rdfs:comment>
+        <rdfs:comment xml:lang="es">entidad administrativa (instituciÃ³n publica) u oficina que convoca o tramita la licitaciÃ³n</rdfs:comment>
+        <rdfs:label xml:lang="en">Authority</rdfs:label>
+        <rdfs:label xml:lang="en"> Tender Authority</rdfs:label>
+        <rdfs:label xml:lang="en"> Buyer</rdfs:label>
+        <rdfs:label xml:lang="es">licitante</rdfs:label>
+        <rdfs:label xml:lang="es"> contratante</rdfs:label>
+        <rdfs:label xml:lang="es"> organizaciÃ³n</rdfs:label>
+        <rdfs:label xml:lang="es"> organismo</rdfs:label>
+        <rdfs:label xml:lang="es"> entidad</rdfs:label>
+        <rdfs:label xml:lang="es"> instituciÃ³n</rdfs:label>
+        <rdfs:label xml:lang="es"> licitador</rdfs:label>
+        <rdfs:label xml:lang="es">Convocante</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="tipoDeDocumento">
+        <rdfs:domain rdf:resource="#Documentos"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        
+        
+        
+        <rdfs:label xml:lang="es">Tipo de Documento</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="descripciÃ³n">
+        <rdfs:domain rdf:resource="#ModificacionDeContrato"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        
+        <rdfs:comment xml:lang="es">DescripciÃ³n de la modificaciÃ³n</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">DescripciÃ³n</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="nombreDeLaLicitacion">
+        <rdfs:domain rdf:resource="#Planificacion"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        <rdfs:comment xml:lang="en">Name or description of the call</rdfs:comment>
+        <rdfs:comment xml:lang="es">Nombre del procedimiento o tÃ­tulo con la cual se identifica cada licitaciÃ³n</rdfs:comment>
+        <rdfs:label xml:lang="en">Descriptions</rdfs:label>
+        <rdfs:label xml:lang="es">nombre de llamado a licitaciÃ³n</rdfs:label>
+        <rdfs:label xml:lang="es"> denominaciÃ³n del llamado</rdfs:label>
+        <rdfs:label xml:lang="es"> descripciÃ³n corta de la licitaciÃ³n</rdfs:label>
+        <rdfs:label xml:lang="es"> objeto de la licitaciÃ³n</rdfs:label>
+        <rdfs:label xml:lang="es"> tÃ­tulo de la licitaciÃ³n</rdfs:label>
+        <rdfs:label xml:lang="es">Nombre de la LicitaciÃ³n</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="tipoDeProcedimiento">
+        <rdfs:domain rdf:resource="#Planificacion"></rdfs:domain>
+        <rdfs:range rdf:resource="#Tipo de Procedimiento"></rdfs:range>
+        <rdfs:comment xml:lang="en">There are several different procurement procedures, the bidding are classified based on the law, in different types of procedures, the most part are open tender but in some cases they can be restricted or closed</rdfs:comment>
+        <rdfs:comment xml:lang="es">El nombre de la modalidad o tipo de procedimiento de selecciÃ³n de proveedores utilizado</rdfs:comment>
+        <rdfs:label xml:lang="en">Tender notice type</rdfs:label>
+        <rdfs:label xml:lang="en"> purchasing systems</rdfs:label>
+        <rdfs:label xml:lang="en"> purchasing procedure</rdfs:label>
+        <rdfs:label xml:lang="en"> call type</rdfs:label>
+        <rdfs:label xml:lang="es">tipo de proceso</rdfs:label>
+        <rdfs:label xml:lang="es"> proceso</rdfs:label>
+        <rdfs:label xml:lang="es"> procedimiento</rdfs:label>
+        <rdfs:label xml:lang="es"> clasificaciÃ³n</rdfs:label>
+        <rdfs:label xml:lang="es"> modalidad</rdfs:label>
+        <rdfs:label xml:lang="es">Tipo de Procedimiento</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="resticciones">
+        <rdfs:domain rdf:resource="#Convocatoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#TextoLargo"></rdfs:range>
+        <rdfs:comment xml:lang="en">exclusion criteria and causes of inability to participate in tenders</rdfs:comment>
+        <rdfs:comment xml:lang="es">Indica las causas por las cuales una empresa podrÃ­a estar impedida de participar en la licitaciÃ³n</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">inhabilidades</rdfs:label>
+        <rdfs:label xml:lang="es">resticciones</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="lugarDeJuntaDeAclaraciones">
+        <rdfs:domain rdf:resource="#Convocatoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        <rdfs:comment xml:lang="en">The Place of the Information meeting</rdfs:comment>
+        <rdfs:comment xml:lang="es">Sitio en el cual se llevarÃ¡ a cabo la junta de aclaraciones</rdfs:comment>
+        <rdfs:label xml:lang="en">onsite meeting place</rdfs:label>
+        <rdfs:label xml:lang="es">ReuniÃ³n de Aclaraciones</rdfs:label>
+        <rdfs:label xml:lang="es"> audiencia de aclaraciones</rdfs:label>
+        <rdfs:label xml:lang="es"> reuniÃ³n informativa</rdfs:label>
+        <rdfs:label xml:lang="es">Lugar de Junta de aclaraciones</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="nombreDelTipoDeProcedimiento">
+        <rdfs:domain rdf:resource="#TipoDeProcedimiento"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        <rdfs:comment xml:lang="en">The name of the  different procurement procedures</rdfs:comment>
+        <rdfs:comment xml:lang="es">El nombre de la modalidad o tipo de procedimiento de selecciÃ³n de proveedores utilizado</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">Nombre del Tipo de Procedimiento</rdfs:label>
+        <rdfs:label xml:lang="es">Nombre del Tipo de Procedimiento</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="identificadorDeLaMoneda">
+        <rdfs:domain rdf:resource="#Moneda"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        
+        
+        <rdfs:label xml:lang="en">currency identifier</rdfs:label>
+        <rdfs:label xml:lang="es">Identificador de la moneda</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="cargoDelContacto">
+        <rdfs:domain rdf:resource="#Convocatoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        <rdfs:comment xml:lang="en">Chargue of the contact</rdfs:comment>
+        <rdfs:comment xml:lang="es">Cargo, funciÃ³n o puesto del contacto</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">Cargo del Contacto</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="identificadorDelProveedor">
+        <rdfs:domain rdf:resource="#Proveedor"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        
+        
+        
+        <rdfs:label xml:lang="es">Identificador del Proveedor</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="numeroDeOrdenDelItem">
+        <rdfs:domain rdf:resource="#Item"></rdfs:domain>
+        <rdfs:range rdf:resource="#Numerico"></rdfs:range>
+        
+        <rdfs:comment xml:lang="es">Ordenamiento numÃ©rico secuencial en el cual se muestran los items a ser licitados</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">NÃºmero secuencial</rdfs:label>
+        <rdfs:label xml:lang="es"> numeraciÃ³n de los Ã­tems</rdfs:label>
+        <rdfs:label xml:lang="es">NÃºmero de Orden del Ã­tem</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="nombreDeLaMoneda">
+        <rdfs:domain rdf:resource="#Moneda"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        <rdfs:comment xml:lang="en">The currency used in the tender for bid</rdfs:comment>
+        <rdfs:comment xml:lang="es">Tipo de divisa de pago del contrato, independiente a la moneda de cotizacion del contrato.  Ej. Dolares, Euros, GuaranÃ­es.</rdfs:comment>
+        <rdfs:label xml:lang="en">currency tipe</rdfs:label>
+        <rdfs:label xml:lang="es">moneda</rdfs:label>
+        <rdfs:label xml:lang="es"> denominaciÃ³n de la moneda</rdfs:label>
+        <rdfs:label xml:lang="es"> tipo de divisa</rdfs:label>
+        <rdfs:label xml:lang="es"> tipo de moneda</rdfs:label>
+        <rdfs:label xml:lang="es">Nombre de la moneda</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="fechaDeEntregaDeLaAdquisicion">
+        <rdfs:domain rdf:resource="#Convocatoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        <rdfs:comment xml:lang="en">The time that it would take a supplier to delivery goods after receipt of order</rdfs:comment>
+        <rdfs:comment xml:lang="es">Plazo, tiempo, tÃ©rmino que tendrÃ¡ el proveedor para cumplir lo requerido</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">Plazo de cumplimiento</rdfs:label>
+        <rdfs:label xml:lang="es"> fecha de cumplimiento</rdfs:label>
+        <rdfs:label xml:lang="es"> fecha de prestaciÃ³n.</rdfs:label>
+        <rdfs:label xml:lang="es">Fecha de entrega de la adquisiciÃ³n</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="proveedor">
+        <rdfs:domain rdf:resource="#Contrato"></rdfs:domain>
+        <rdfs:range rdf:resource="#Proveedor"></rdfs:range>
+        <rdfs:comment xml:lang="en">The suppliers awarded this award. An award for the given procurement. There may be more than one award per contracting process e.g. because the contract is split amongst different providers, or because it is a standing offer.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Proveedor es un tÃ©rmino usado para describir a las organizaciones externas que prestan servicios o bienes a un comprador. Otros tÃ©rminos en uso comÃºn incluyen proveedor, proveedor de servicios y el contratista. En algunos contextos la palabra Â«proveedorÂ» denota una empresa que suministra los materiales, mientras que la palabra contratista se utiliza para los proveedores de servicios.</rdfs:comment>
+        <rdfs:label xml:lang="en">winner</rdfs:label>
+        <rdfs:label xml:lang="es">Adjudicado</rdfs:label>
+        <rdfs:label xml:lang="es"> Adjudicatarios</rdfs:label>
+        <rdfs:label xml:lang="es"> Seleccionados</rdfs:label>
+        <rdfs:label xml:lang="es"> Ganadores</rdfs:label>
+        <rdfs:label xml:lang="es"> Proveedores</rdfs:label>
+        <rdfs:label xml:lang="es">Proveedor</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="identificacionDeLaPlanificacion">
+        <rdfs:domain rdf:resource="#Planificacion"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        
+        
+        
+        <rdfs:label xml:lang="es">IdentificaciÃ³n de la Planificacion</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="fechaDeInicioDePropuestas">
+        <rdfs:domain rdf:resource="#Convocatoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Fecha/hora"></rdfs:range>
+        
+        <rdfs:comment xml:lang="es">Fecha y hora desde la cual los oferentes podrÃ¡n cargar su propuesta electrÃ³nica en los casos de Subasta ElectrÃ³nica</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">Fecha de Inicio de Propuestas</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="lugarDeAperturaDeOfertas">
+        <rdfs:domain rdf:resource="#Convocatoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        <rdfs:comment xml:lang="en">The place bid</rdfs:comment>
+        <rdfs:comment xml:lang="es">Lugar en la cual se abrirÃ¡n las ofertas</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">direcciÃ³n de apertura de ofertas</rdfs:label>
+        <rdfs:label xml:lang="es"> sitio de apertura de ofertas</rdfs:label>
+        <rdfs:label xml:lang="es"> sitio de apertura de propuestas</rdfs:label>
+        <rdfs:label xml:lang="es"> lugar de apertura de sobres</rdfs:label>
+        <rdfs:label xml:lang="es">Lugar de Apertura de Ofertas</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="fuenteDeFinanciamiento">
+        <rdfs:domain rdf:resource="#Convocatoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        <rdfs:comment xml:lang="en">A budget source represents the origin of the resources in a organisationâ€™s plan expressed in monetary terms, usually the allocation of resources is used as a measure of control accounts and organisational performance.</rdfs:comment>
+        <rdfs:comment xml:lang="es">ClasificaciÃ³n de la fuente de Financiamiento que permite conocer de donde se obtendran los recursos que financiarÃ¡n los pagos, es decir la fuente de origen de los recursos.</rdfs:comment>
+        <rdfs:label xml:lang="en">Source of Funds</rdfs:label>
+        <rdfs:label xml:lang="en"> funding</rdfs:label>
+        <rdfs:label xml:lang="en"> Budget</rdfs:label>
+        <rdfs:label xml:lang="es">CrÃ©dito presupuestario</rdfs:label>
+        <rdfs:label xml:lang="es"> lineas financieras</rdfs:label>
+        <rdfs:label xml:lang="es"> recursos</rdfs:label>
+        <rdfs:label xml:lang="es"> financiamiento</rdfs:label>
+        <rdfs:label xml:lang="es"> lÃ­neas presupuestarias</rdfs:label>
+        <rdfs:label xml:lang="es"> origen de los recursos</rdfs:label>
+        <rdfs:label xml:lang="es"> ClasificaciÃ³n del financiamiento</rdfs:label>
+        <rdfs:label xml:lang="es"> origen del financiamiento</rdfs:label>
+        <rdfs:label xml:lang="es">Fuente de Financiamiento</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="telefono">
+        <rdfs:domain rdf:resource="#Proveedor"></rdfs:domain>
+        <rdfs:range rdf:resource="#Telefono"></rdfs:range>
+        <rdfs:comment xml:lang="en">Telephone number</rdfs:comment>
+        <rdfs:comment xml:lang="es">TelÃ©fono</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">telefono</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="codigoDeCatalogo">
+        <rdfs:domain rdf:resource="#Item"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        <rdfs:comment xml:lang="en">The United Nations Standard Products and Services Code [UNSPSC] is a widely used coding system for goods and services.  The use of a common coding system enables buyers and sellers to describe goods and services in a common way without recourse to suppliersâ€™ own catalogue codes and descriptions.</rdfs:comment>
+        <rdfs:comment xml:lang="es">CÃ³digo en base a la clasificaciÃ³n UNSPSC asignado a un bien o servicio especÃ­fico es  utilizado por el gobierno para identificar las descripciones genÃ©ricas de productos para sus actividades de contrataciÃ³n</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">CodificacaciÃ³n</rdfs:label>
+        <rdfs:label xml:lang="es"> CatalogaciÃ³n</rdfs:label>
+        <rdfs:label xml:lang="es">CÃ³digo de Catalogo</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="nombreDelContacto">
+        <rdfs:domain rdf:resource="#Convocatoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        <rdfs:comment xml:lang="en">Name of buyer assigned to the call</rdfs:comment>
+        <rdfs:comment xml:lang="es">Nombre de la persona encargada de suministrar informaciÃ³n a los interesados</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">Contacto</rdfs:label>
+        <rdfs:label xml:lang="es">Nombre del Contacto</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="aÃ±oFiscal">
+        <rdfs:domain rdf:resource="#Planificacion"></rdfs:domain>
+        <rdfs:range rdf:resource="#Numero"></rdfs:range>
+        
+        
+        
+        <rdfs:label xml:lang="es">AÃ±o Fiscal</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="emailDelContacto">
+        <rdfs:domain rdf:resource="#Convocatoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Email"></rdfs:range>
+        <rdfs:comment xml:lang="en">Email contract</rdfs:comment>
+        <rdfs:comment xml:lang="es">direcciÃ³n de correo electrÃ³nico del contacto</rdfs:comment>
+        <rdfs:label xml:lang="en">Buyer email</rdfs:label>
+        <rdfs:label xml:lang="es">correo electrÃ³nico del contacto</rdfs:label>
+        <rdfs:label xml:lang="es">Email del Contacto</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="proveedoresAdjudicados">
+        <rdfs:domain rdf:resource="#Adjudicacion"></rdfs:domain>
+        <rdfs:range rdf:resource="#Contrato"></rdfs:range>
+        <rdfs:comment xml:lang="en">The suppliers awarded this award. An award for the given procurement. There may be more than one award per contracting process e.g. because the contract is split amongst different providers, or because it is a standing offer.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Proveedor es un tÃ©rmino usado para describir a las organizaciones externas que prestan servicios o bienes a un comprador. Otros tÃ©rminos en uso comÃºn incluyen proveedor, proveedor de servicios y el contratista. En algunos contextos la palabra Â«proveedorÂ» denota una empresa que suministra los materiales, mientras que la palabra contratista se utiliza para los proveedores de servicios. Puede haber mÃ¡s de un adjudicado por licitaciÃ³n.</rdfs:comment>
+        <rdfs:label xml:lang="en">winner</rdfs:label>
+        <rdfs:label xml:lang="es">Adjudicado</rdfs:label>
+        <rdfs:label xml:lang="es"> Adjudicatarios</rdfs:label>
+        <rdfs:label xml:lang="es"> Seleccionados</rdfs:label>
+        <rdfs:label xml:lang="es"> Ganadores</rdfs:label>
+        <rdfs:label xml:lang="es"> Proveedores</rdfs:label>
+        <rdfs:label xml:lang="es">Proveedores Adjudicados</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="vigenciaDelContrato">
+        <rdfs:domain rdf:resource="#Convocatoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        <rdfs:comment xml:lang="en">The count of days or term, from a particular starting date to a given completion date, as given in a bidding terms. Also known as contract time.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Vigencia del Contrato firmado con el proveedor</rdfs:comment>
+        <rdfs:label xml:lang="en">contract date</rdfs:label>
+        <rdfs:label xml:lang="en"> contract term</rdfs:label>
+        <rdfs:label xml:lang="en"> contract deadline</rdfs:label>
+        <rdfs:label xml:lang="en"> contract period</rdfs:label>
+        <rdfs:label xml:lang="es">Vigencia</rdfs:label>
+        <rdfs:label xml:lang="es"> Vigencia del Contrato</rdfs:label>
+        <rdfs:label xml:lang="es"> DuraciÃ³n del Contrato</rdfs:label>
+        <rdfs:label xml:lang="es"> Validez del Contrato</rdfs:label>
+        <rdfs:label xml:lang="es"> Vencimiento del Contrato</rdfs:label>
+        <rdfs:label xml:lang="es"> TerminaciÃ³n del Contrato</rdfs:label>
+        <rdfs:label xml:lang="es"> Tiempo de DuraciÃ³n del Contrato</rdfs:label>
+        <rdfs:label xml:lang="es">Vigencia del Contrato</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="formasDePago">
+        <rdfs:domain rdf:resource="#FormaDePago"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        <rdfs:comment xml:lang="en">Describes the timing and scaling of a contractorâ€™s remuneration.</rdfs:comment>
+        <rdfs:comment xml:lang="es">determina la forma, mecanismo, frecuencia, ocurrencia o evento que marcarÃ¡ el momento de la realizaciÃ³n del o los pagos como consecuencia de la ejecuciÃ³n contractual</rdfs:comment>
+        <rdfs:label xml:lang="en">payment provisions</rdfs:label>
+        <rdfs:label xml:lang="es">Plan de Pagos</rdfs:label>
+        <rdfs:label xml:lang="es"> frecuencia de pago</rdfs:label>
+        <rdfs:label xml:lang="es"> ocurrencia del pago</rdfs:label>
+        <rdfs:label xml:lang="es">Formas de Pago</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="itemsAdjudicados">
+        <rdfs:domain rdf:resource="#Contrato"></rdfs:domain>
+        <rdfs:range rdf:resource="#Item"></rdfs:range>
+        
+        <rdfs:comment xml:lang="es">La Lista de los bienes adjudicados.</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">artÃ­culos</rdfs:label>
+        <rdfs:label xml:lang="es">Items Adjudicados</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="precioUnitario">
+        <rdfs:domain rdf:resource="#Item"></rdfs:domain>
+        <rdfs:range rdf:resource="#Numero"></rdfs:range>
+        <rdfs:comment xml:lang="en">The unit used to quantify an item, for example length, mass, volume, area, number etc.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Unidad de medida que se utiliza para la cotizaciÃ³n</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">Precio Unitario</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="estado">
+        <rdfs:domain rdf:resource="#Adjudicacion"></rdfs:domain>
+        <rdfs:range rdf:resource="#Estado"></rdfs:range>
+        <rdfs:comment xml:lang="en">This field contains information regarding what stage the bidding is process currently in. It can also reflect a special status of a bidding process, when certain events that don&#39;t belong in the normal life cycle of the process take place (an intervention by the procurement office due to a formal complain, for example)</rdfs:comment>
+        <rdfs:comment xml:lang="es">Indica en en quÃ© fase del ciclo de vida de la licitaciÃ³n se encuentra actualmente el procedimiento, asÃ­ tambiÃ©n marca el evento que es puesto a conocimiento pÃºblico</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">etapa</rdfs:label>
+        <rdfs:label xml:lang="es"> fase</rdfs:label>
+        <rdfs:label xml:lang="es"> hito</rdfs:label>
+        <rdfs:label xml:lang="es"> evento</rdfs:label>
+        <rdfs:label xml:lang="es">Estado</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="identificador">
+        <rdfs:domain rdf:resource="#GrupoDeItems"></rdfs:domain>
+        <rdfs:range rdf:resource="#Numerico"></rdfs:range>
+        
+        
+        
+        <rdfs:label xml:lang="es">Identificador</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="identificadorLaUnidadDeMedida">
+        <rdfs:domain rdf:resource="#UnidadDeMedida"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        
+        <rdfs:comment xml:lang="es">Identificador tÃ©cnico (no visible para usuarios) de la unidad de medida</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">Identificador la unidad de medida</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="tipoDeGarantiaDeMantenimientoDeOferta">
+        <rdfs:domain rdf:resource="#Convocatoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Tipo GarantÃ­a de Ofertas"></rdfs:range>
+        <rdfs:comment xml:lang="en">Is a warranty lodged by a contractor with a third party, which is forfeited in defined circumstances during de validity period. The purpose is to compensate the client for break the bid. The validity period is the time for which an Offer will remain open for consideration and acceptance by the Contract Authority.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Tipo de Documento que debe presentar el oferente o proponente para garantizar su propuesta</rdfs:comment>
+        <rdfs:label xml:lang="en">Security Deposit</rdfs:label>
+        <rdfs:label xml:lang="en"> performance bond</rdfs:label>
+        <rdfs:label xml:lang="es">GarantÃ­a de Seriedad de la Oferta</rdfs:label>
+        <rdfs:label xml:lang="es"> Garantia de Sostenimiento de Oferta</rdfs:label>
+        <rdfs:label xml:lang="es"> GarantÃ­a de Validez de la Oferta</rdfs:label>
+        <rdfs:label xml:lang="es">Tipo de GarantÃ­a de  Mantenimiento de Oferta</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="item">
+        <rdfs:domain rdf:resource="#Convocatoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Grupo de Items"></rdfs:range>
+        <rdfs:comment xml:lang="en">An item of supply or service specified in a solicitation for which the vendor must specify a separate price.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Uno o mÃ¡s items solicitados por el convocante, sobre el cual los proveedores deben presentar su propuesta</rdfs:comment>
+        <rdfs:label xml:lang="en">LINE ITEM</rdfs:label>
+        <rdfs:label xml:lang="es">renglÃ³n</rdfs:label>
+        <rdfs:label xml:lang="es">Item</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="estadoDeLaAdenda">
+        <rdfs:domain rdf:resource="#ModificacionDeContrato"></rdfs:domain>
+        <rdfs:range rdf:resource="#Estado"></rdfs:range>
+        <rdfs:comment xml:lang="en">Status</rdfs:comment>
+        <rdfs:comment xml:lang="es">El estado en el cual se encuentra la modificaciÃ³n del contrato</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">etapa</rdfs:label>
+        <rdfs:label xml:lang="es"> fase</rdfs:label>
+        <rdfs:label xml:lang="es"> hito</rdfs:label>
+        <rdfs:label xml:lang="es"> evento</rdfs:label>
+        <rdfs:label xml:lang="es">Estado de la adenda</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="formaDePago">
+        <rdfs:domain rdf:resource="#Convocatoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Forma de Pago"></rdfs:range>
+        <rdfs:comment xml:lang="en">Describes the timing and scaling of a contractorâ€™s remuneration.</rdfs:comment>
+        <rdfs:comment xml:lang="es">determina la forma, mecanismo, frecuencia, ocurrencia o evento que marcarÃ¡ el momento de la realizaciÃ³n del o los pagos como consecuencia de la ejecuciÃ³n contractual</rdfs:comment>
+        <rdfs:label xml:lang="en">progress payment</rdfs:label>
+        <rdfs:label xml:lang="en"> payment profile</rdfs:label>
+        <rdfs:label xml:lang="es">Plan de Pagos</rdfs:label>
+        <rdfs:label xml:lang="es"> frecuencia de pago</rdfs:label>
+        <rdfs:label xml:lang="es"> ocurrencia del pago</rdfs:label>
+        <rdfs:label xml:lang="es">Forma de Pago</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="fechaLimiteDePropuestas">
+        <rdfs:domain rdf:resource="#Convocatoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Fecha/hora"></rdfs:range>
+        <rdfs:comment xml:lang="en">In reverse auctions deadline charging proposals</rdfs:comment>
+        <rdfs:comment xml:lang="es">Fecha y hora hasta la cual los oferentes podrÃ¡n cargar su propuesta electrÃ³nica en los casos de Subasta ElectrÃ³nica</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">Cierre de propuestas</rdfs:label>
+        <rdfs:label xml:lang="es"> lÃ­mite de carga</rdfs:label>
+        <rdfs:label xml:lang="es">Fecha lÃ­mite de propuestas</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="fechaDeInicioDeEtapaCompetitiva">
+        <rdfs:domain rdf:resource="#Convocatoria"></rdfs:domain>
+        <rdfs:range rdf:resource="#Fecha/hora"></rdfs:range>
+        
+        <rdfs:comment xml:lang="es">Fecha y hora desde la cual los oferentes podrÃ¡n competir contra los demÃ¡s oferentes en los casos de Subasta ElectrÃ³nica</rdfs:comment>
+        
+        <rdfs:label xml:lang="es">Fecha de Inicio de Etapa Competitiva</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:ID="identificadorDelSistemaDeAdjudicacion">
+        <rdfs:domain rdf:resource="#SistemaDeAdjudicacion"></rdfs:domain>
+        <rdfs:range rdf:resource="#Texto"></rdfs:range>
+        
+        
+        
+        <rdfs:label xml:lang="es">identificador del Sistema de AdjudicaciÃ³n</rdfs:label>
+    </owl:ObjectProperty>
+
+</rdf:RDF>

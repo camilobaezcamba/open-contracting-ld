@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "Period": {
+      "@id": "http://purl.org/onto-ocds/ocds#Period"
+    },
+    "startDate": {
+      "@id": "http://purl.org/onto-ocds/ocds#startDate",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "endDate": {
+      "@id": "http://purl.org/onto-ocds/ocds#endDate",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "Item": {
+      "@id": "http://purl.org/onto-ocds/ocds#Item"
+    },
+    "description": {
+      "@id": "http://purl.org/onto-ocds/ocds#itemDescription",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "id": {
+      "@id": "http://purl.org/onto-ocds/ocds#itemId"
+    },
+    "classification": {
+      "@id": "http://purl.org/onto-ocds/ocds#classification",
+      "@type": "@id"
+    },
+    "additionalClassifications": {
+      "@id": "http://purl.org/onto-ocds/ocds#additionalClassifications",
+      "@type": "@id"
+    },
+    "quantity": {
+      "@id": "http://purl.org/onto-ocds/ocds#quantity",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "unit": {
+      "@id": "http://purl.org/onto-ocds/ocds#unit",
+      "@type": "@id"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "Unit": {
+      "@id": "http://purl.org/onto-ocds/ocds#Unit"
+    },
+    "name": {
+      "@id": "http://purl.org/onto-ocds/ocds#unitName",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "value": {
+      "@id": "http://purl.org/onto-ocds/ocds#unitValue",
+      "@type": "@id"
+    },
+    "uri": {
+      "@id": "http://purl.org/onto-ocds/ocds#TODO",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "id": {
+      "@id": "http://purl.org/onto-ocds/ocds#TODO",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "scheme": {
+      "@id": "http://purl.org/onto-ocds/ocds#TODO",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }
+}

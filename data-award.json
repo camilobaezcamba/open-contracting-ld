@@ -1,0 +1,57 @@
+{
+  "id": "193399-adquisicion-scanner",
+  "title": "Adquisición de Scanner",
+  "status": "active",
+  "date": "2010-04-23T12:25:10-04:00",
+  "value": {
+    "amount": 135630400,
+    "currency": "PYG"
+  },
+  "suppliers": [
+    {
+      "name": "DATA SYSTEMS SA EMISORA DE CAPITAL ABIERTO",
+      "identifier": {
+        "id": "80013889-9",
+        "legalName": "DATA SYSTEMS SA EMISORA DE CAPITAL ABIERTO",
+        "scheme": "Registro Único de Contribuyente emitido por el Ministerio de Hacienda del Gobierno de Paraguay"
+      },
+      "address": {
+        "streetAddress": "SALTOS DEL GUAIRA 1055",
+        "postalCode": "",
+        "locality": "ASUNCION (DISTRITO)",
+        "countryName": "Paraguay",
+        "region": "Central"
+      },
+      "contactPoint": {
+        "name": "JOSE MANUEL FLECHA C., SERGIO GUSTAVO PEREZ B., MARCIAL LEITON; HUGO GIMENEZ",
+        "faxNumber": "",
+        "telephone": "213-347/8",
+        "email": "datasys@data.com.py",
+        "url": "http://www.data.com.py"
+      }
+    },
+    {
+      "name": "MASTER SOFT SRL",
+      "identifier": {
+        "id": "80007525-0",
+        "legalName": "MASTER SOFT SRL",
+        "scheme": "Registro Único de Contribuyente emitido por el Ministerio de Hacienda del Gobierno de Paraguay"
+      },
+      "address": {
+        "streetAddress": "CHOFERES DEL CHACO Nº1956",
+        "postalCode": "",
+        "locality": "ASUNCION",
+        "countryName": "Paraguay",
+        "region": "Asunción"
+      },
+      "contactPoint": {
+        "name": "LUIS MARIA OREGGIONI, GISELA SELMA WEIBERLEN DE OREGGIONI",
+        "faxNumber": "",
+        "telephone": "662831",
+        "email": "mastersoft@tigo.com.py",
+        "url": null
+      }
+    }
+  ],
+  "url": "https://www.contrataciones.gov.py/datos/id/adjudicaciones/193399-adquisicion-scanner"
+}

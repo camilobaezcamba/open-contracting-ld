@@ -1,0 +1,362 @@
+{
+  "language": "es",
+  "ocid": "ocds-03ad3f-193399",
+  "id": "193399-adquisicion-scanner",
+  "date": "2018-01-30T15:55:08-05:00",
+  "tag": [
+    "compiled"
+  ],
+  "initiationType": "tender",
+  "planning": {
+    "budget": {
+      "description": "Adquisición de Scanner",
+      "amount": {
+        "amount": null,
+        "currency": "PYG"
+      }
+    },
+    "url": "https://www.contrataciones.gov.py/datos/id/planificaciones/193399-adquisicion-scanner"
+  },
+  "tender": {
+    "id": "193399-adquisicion-scanner",
+    "title": "Adquisición de Scanner",
+    "status": "complete",
+    "lots": [
+      {
+        "id": "nYZlDIKXpLc%3D",
+        "title": "Lote 1",
+        "items": [
+          "P8melbTmu7M%3D",
+          "aGlYxd8PQDw%3D"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "description": "Scanners",
+        "id": "P8melbTmu7M%3D",
+        "classification": {
+          "scheme": "Catálogo de productos, bienes y servicios de la Dirección Nacional de Contrataciones Públicas del Paraguay",
+          "id": "43211711-001",
+          "description": "Catálogo de productos, bienes y servicios de la Dirección Nacional de Contrataciones Públicas del Paraguay Nivel 5, basado en UNSPSC",
+          "uri": "https://www.contrataciones.gov.py/datos/api/v2/doc/catalogo/nivel-5/43211711-001"
+        },
+        "quantity": 8,
+        "unit": {
+          "name": "Unidad",
+          "value": {
+            "amount": null,
+            "currency": "PYG"
+          }
+        }
+      },
+      {
+        "description": "Scanners",
+        "id": "aGlYxd8PQDw%3D",
+        "classification": {
+          "scheme": "Catálogo de productos, bienes y servicios de la Dirección Nacional de Contrataciones Públicas del Paraguay",
+          "id": "43211711-001",
+          "description": "Catálogo de productos, bienes y servicios de la Dirección Nacional de Contrataciones Públicas del Paraguay Nivel 5, basado en UNSPSC",
+          "uri": "https://www.contrataciones.gov.py/datos/api/v2/doc/catalogo/nivel-5/43211711-001"
+        },
+        "quantity": 2,
+        "unit": {
+          "name": "Unidad",
+          "value": {
+            "amount": null,
+            "currency": "PYG"
+          }
+        }
+      }
+    ],
+    "value": {
+      "currency": "PYG",
+      "amount": null
+    },
+    "enquiryPeriod": {
+      "endDate": "2010-02-05T00:00:00-05:00"
+    },
+    "hasEnquiries": false,
+    "awardPeriod": {
+      "startDate": "2010-02-05T00:00:00-05:00",
+      "endDate": "2010-03-17T10:10:33-04:00"
+    },
+    "procuringEntity": {
+      "name": "Dirección Nacional de Contrataciones Públicas (DNCP)",
+      "contactPoint": {
+        "name": "Abog. Cynthia Leite de Lezcano",
+        "email": "uoc@contrataciones.gov.py",
+        "telephone": "415-4000"
+      }
+    },
+    "documents": [
+      {
+        "id": "y%2FJgDClEAtk%3D",
+        "documentType": "Condiciones Generales del Contrato - Bienes y Servicios por Subasta",
+        "title": "Condiciones Generales del Contrato - Bienes y Servicios por Subasta",
+        "language": "es",
+        "url": "https://www.contrataciones.gov.py/documentos/download/convocatoria/y%252FJgDClEAtk%253D",
+        "format": "application/pdf"
+      },
+      {
+        "id": "PhIjL%2Fj9z8k%3D",
+        "documentType": "Instrucción a los Oferentes - Bienes y Servicios por Subasta",
+        "title": "Instrucción a los Oferentes - Bienes y Servicios por Subasta",
+        "language": "es",
+        "url": "https://www.contrataciones.gov.py/documentos/download/convocatoria/PhIjL%252Fj9z8k%253D",
+        "format": "application/pdf"
+      },
+      {
+        "id": "Mmf4Zj6L7EA%3D",
+        "documentType": "biddingDocuments",
+        "title": "Pliego de bases y Condiciones",
+        "language": "es",
+        "url": "https://www.contrataciones.gov.py/documentos/download/convocatoria/Mmf4Zj6L7EA%253D",
+        "format": "application/zip"
+      }
+    ],
+    "tenderPeriod": {
+      "endDate": null,
+      "startDate": "2010-03-15T09:00:00-04:00"
+    },
+    "submissionMethod": [
+      "electronicAuction"
+    ],
+    "url": "https://www.contrataciones.gov.py/datos/id/convocatorias/193399-adquisicion-scanner"
+  },
+  "buyer": {
+    "name": "Dirección Nacional de Contrataciones Públicas (DNCP)",
+    "contactPoint": {
+      "name": "Abog. Cynthia Leite de Lezcano",
+      "email": "uoc@contrataciones.gov.py",
+      "telephone": "415-4000"
+    }
+  },
+  "awards": [
+    {
+      "id": "193399-adquisicion-scanner",
+      "title": "Adquisición de Scanner",
+      "status": "active",
+      "date": "2010-04-23T12:25:10-04:00",
+      "value": {
+        "amount": 135630400,
+        "currency": "PYG"
+      },
+      "suppliers": [
+        {
+          "name": "DATA SYSTEMS SA EMISORA DE CAPITAL ABIERTO",
+          "identifier": {
+            "id": "80013889-9",
+            "legalName": "DATA SYSTEMS SA EMISORA DE CAPITAL ABIERTO",
+            "scheme": "Registro Único de Contribuyente emitido por el Ministerio de Hacienda del Gobierno de Paraguay"
+          },
+          "address": {
+            "streetAddress": "SALTOS DEL GUAIRA 1055",
+            "postalCode": "",
+            "locality": "ASUNCION (DISTRITO)",
+            "countryName": "Paraguay",
+            "region": "Central"
+          },
+          "contactPoint": {
+            "name": "JOSE MANUEL FLECHA C., SERGIO GUSTAVO PEREZ B., MARCIAL LEITON; HUGO GIMENEZ",
+            "faxNumber": "",
+            "telephone": "213-347/8",
+            "email": "datasys@data.com.py",
+            "url": "http://www.data.com.py"
+          }
+        },
+        {
+          "name": "MASTER SOFT SRL",
+          "identifier": {
+            "id": "80007525-0",
+            "legalName": "MASTER SOFT SRL",
+            "scheme": "Registro Único de Contribuyente emitido por el Ministerio de Hacienda del Gobierno de Paraguay"
+          },
+          "address": {
+            "streetAddress": "CHOFERES DEL CHACO Nº1956",
+            "postalCode": "",
+            "locality": "ASUNCION",
+            "countryName": "Paraguay",
+            "region": "Asunción"
+          },
+          "contactPoint": {
+            "name": "LUIS MARIA OREGGIONI, GISELA SELMA WEIBERLEN DE OREGGIONI",
+            "faxNumber": "",
+            "telephone": "662831",
+            "email": "mastersoft@tigo.com.py",
+            "url": null
+          }
+        }
+      ],
+      "url": "https://www.contrataciones.gov.py/datos/id/adjudicaciones/193399-adquisicion-scanner"
+    }
+  ],
+  "contracts": [
+    {
+      "id": "193399-data-systems-sa-emisora-capital-abierto-2",
+      "awardID": "193399-adquisicion-scanner",
+      "dncpContractCode": "CO-23019-10-0806",
+      "title": "Adquisición de Scanner",
+      "status": "active",
+      "value": {
+        "amount": 105600000,
+        "currency": "PYG"
+      },
+      "lots": [
+        {
+          "id": "nYZlDIKXpLc%3D",
+          "title": "Lote 1",
+          "items": [
+            "Aospdg6erjw%3D"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "description": "Scanners",
+          "id": "Aospdg6erjw%3D",
+          "classification": {
+            "schema": "Catálogo de productos, bienes y servicios de la Dirección Nacional de Contrataciones Públicas del Paraguay",
+            "id": "43211711-001",
+            "description": "Catálogo de productos, bienes y servicios de la Dirección Nacional de Contrataciones Públicas del Paraguay Nivel 5, basado en UNSPSC",
+            "uri": "https://www.contrataciones.gov.py/datos/api/v2/doc/catalogo/nivel-5/43211711-001"
+          },
+          "quantity": 2,
+          "unit": {
+            "name": "Unidad",
+            "value": {
+              "amount": 52800000,
+              "currency": "PYG"
+            }
+          }
+        }
+      ],
+      "dateSigned": "2010-04-14T12:00:00-04:00",
+      "suppliers": {
+        "name": "DATA SYSTEMS SA EMISORA DE CAPITAL ABIERTO",
+        "identifier": {
+          "id": "80013889-9",
+          "legalName": "DATA SYSTEMS SA EMISORA DE CAPITAL ABIERTO",
+          "scheme": "Registro Único de Contribuyente emitido por el Ministerio de Hacienda del Gobierno de Paraguay"
+        },
+        "identifiers": {
+          "key": "193399-data-systems-sa-emisora-capital-abierto-2"
+        }
+      },
+      "documents": [
+        {
+          "id": "2S8yoOhxZc8%3D",
+          "documentType": "Cuadro Comparativo de Ofertas",
+          "title": "Cuadro Comparativo de Ofertas",
+          "language": "es",
+          "url": "https://www.contrataciones.gov.py/documentos/download/adjudicacion/2S8yoOhxZc8%253D",
+          "format": "application/pdf"
+        },
+        {
+          "id": "Yu2KNStSJdE%3D",
+          "documentType": "evaluationReports",
+          "title": "Informe de Evaluación",
+          "language": "es",
+          "url": "https://www.contrataciones.gov.py/documentos/download/adjudicacion/Yu2KNStSJdE%253D",
+          "format": "application/pdf"
+        },
+        {
+          "id": "9hIjOhq4IC0%3D",
+          "documentType": "awardNotice",
+          "title": "Resolución de Adjudicación",
+          "language": "es",
+          "url": "https://www.contrataciones.gov.py/documentos/download/adjudicacion/9hIjOhq4IC0%253D",
+          "format": "application/pdf"
+        }
+      ],
+      "period": {
+        "endDate": "2010-06-13T12:00:00-04:00",
+        "startDate": "2010-04-14T12:00:00-04:00"
+      },
+      "url": "https://www.contrataciones.gov.py/datos/id/contratos/193399-data-systems-sa-emisora-capital-abierto-2"
+    },
+    {
+      "id": "193399-master-soft-srl-3",
+      "awardID": "193399-adquisicion-scanner",
+      "dncpContractCode": "CO-23019-10-0805",
+      "title": "Adquisición de Scanner",
+      "status": "active",
+      "value": {
+        "amount": 30030400,
+        "currency": "PYG"
+      },
+      "lots": [
+        {
+          "id": "nYZlDIKXpLc%3D",
+          "title": "Lote 1",
+          "items": [
+            "sZuyK1A%2BAH0%3D"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "description": "Scanners",
+          "id": "sZuyK1A%2BAH0%3D",
+          "classification": {
+            "schema": "Catálogo de productos, bienes y servicios de la Dirección Nacional de Contrataciones Públicas del Paraguay",
+            "id": "43211711-001",
+            "description": "Catálogo de productos, bienes y servicios de la Dirección Nacional de Contrataciones Públicas del Paraguay Nivel 5, basado en UNSPSC",
+            "uri": "https://www.contrataciones.gov.py/datos/api/v2/doc/catalogo/nivel-5/43211711-001"
+          },
+          "quantity": 8,
+          "unit": {
+            "name": "Unidad",
+            "value": {
+              "amount": 3753800,
+              "currency": "PYG"
+            }
+          }
+        }
+      ],
+      "dateSigned": "2010-04-15T12:00:00-04:00",
+      "suppliers": {
+        "name": "MASTER SOFT SRL",
+        "identifier": {
+          "id": "80007525-0",
+          "legalName": "MASTER SOFT SRL",
+          "scheme": "Registro Único de Contribuyente emitido por el Ministerio de Hacienda del Gobierno de Paraguay"
+        },
+        "identifiers": {
+          "key": "193399-master-soft-srl-3"
+        }
+      },
+      "documents": [
+        {
+          "id": "2S8yoOhxZc8%3D",
+          "documentType": "Cuadro Comparativo de Ofertas",
+          "title": "Cuadro Comparativo de Ofertas",
+          "language": "es",
+          "url": "https://www.contrataciones.gov.py/documentos/download/adjudicacion/2S8yoOhxZc8%253D",
+          "format": "application/pdf"
+        },
+        {
+          "id": "Yu2KNStSJdE%3D",
+          "documentType": "evaluationReports",
+          "title": "Informe de Evaluación",
+          "language": "es",
+          "url": "https://www.contrataciones.gov.py/documentos/download/adjudicacion/Yu2KNStSJdE%253D",
+          "format": "application/pdf"
+        },
+        {
+          "id": "9hIjOhq4IC0%3D",
+          "documentType": "awardNotice",
+          "title": "Resolución de Adjudicación",
+          "language": "es",
+          "url": "https://www.contrataciones.gov.py/documentos/download/adjudicacion/9hIjOhq4IC0%253D",
+          "format": "application/pdf"
+        }
+      ],
+      "period": {
+        "endDate": "2010-06-14T12:00:00-04:00",
+        "startDate": "2010-04-15T12:00:00-04:00"
+      },
+      "url": "https://www.contrataciones.gov.py/datos/id/contratos/193399-master-soft-srl-3"
+    }
+  ]
+}

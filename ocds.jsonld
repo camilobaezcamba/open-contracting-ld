@@ -1,0 +1,709 @@
+{
+  "@context" : {
+    "budgetUri" : {
+      "@id" : "http://w3id.org/ocds/ns##budgetUri",
+      "@type" : "@id"
+    },
+    "awardTitle" : {
+      "@id" : "http://w3id.org/ocds/ns##awardTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Address" : {
+      "@id" : "http://w3id.org/ocds/ns##Address"
+    },
+    "TenderStatus" : {
+      "@id" : "http://w3id.org/ocds/ns##TenderStatus"
+    },
+    "budgetId" : {
+      "@id" : "http://w3id.org/ocds/ns##budgetId"
+    },
+    "releaseLanguage" : {
+      "@id" : "http://w3id.org/ocds/ns##releaseLanguage",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Unit" : {
+      "@id" : "http://w3id.org/ocds/ns##Unit"
+    },
+    "lotId" : {
+      "@id" : "http://w3id.org/ocds/ns##lotId",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "awardDocuments" : {
+      "@id" : "http://w3id.org/ocds/ns##awardDocuments",
+      "@type" : "@id"
+    },
+    "documentUrl" : {
+      "@id" : "http://w3id.org/ocds/ns##documentUrl",
+      "@type" : "@id"
+    },
+    "amendmentDate" : {
+      "@id" : "http://w3id.org/ocds/ns##amendmentDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "Period" : {
+      "@id" : "http://w3id.org/ocds/ns##Period"
+    },
+    "awardPeriod" : {
+      "@id" : "http://w3id.org/ocds/ns##awardPeriod",
+      "@type" : "@id"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "documentId" : {
+      "@id" : "http://w3id.org/ocds/ns##documentId"
+    },
+    "identifierScheme" : {
+      "@id" : "http://w3id.org/ocds/ns##identifierScheme",
+      "@type" : "@id"
+    },
+    "Release" : {
+      "@id" : "http://w3id.org/ocds/ns##Release"
+    },
+    "buyer" : {
+      "@id" : "http://w3id.org/ocds/ns##buyer",
+      "@type" : "@id"
+    },
+    "startDate" : {
+      "@id" : "http://w3id.org/ocds/ns##startDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "awardCriteria" : {
+      "@id" : "http://w3id.org/ocds/ns##awardCriteria",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "milestoneTitle" : {
+      "@id" : "http://w3id.org/ocds/ns##milestoneTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Organization" : {
+      "@id" : "http://w3id.org/ocds/ns##Organization"
+    },
+    "OrganizationIdentifierScheme" : {
+      "@id" : "http://w3id.org/ocds/ns##OrganizationIdentifierScheme"
+    },
+    "tenderItems" : {
+      "@id" : "http://w3id.org/ocds/ns##tenderItems",
+      "@type" : "@id"
+    },
+    "transactionUri" : {
+      "@id" : "http://w3id.org/ocds/ns##transactionUri",
+      "@type" : "@id"
+    },
+    "AwardStatus" : {
+      "@id" : "http://w3id.org/ocds/ns##AwardStatus"
+    },
+    "initiationType" : {
+      "@id" : "http://w3id.org/ocds/ns##initiationType",
+      "@type" : "@id"
+    },
+    "procuringEntity" : {
+      "@id" : "http://w3id.org/ocds/ns##procuringEntity",
+      "@type" : "@id"
+    },
+    "ItemClassificationScheme" : {
+      "@id" : "http://w3id.org/ocds/ns##ItemClassificationScheme"
+    },
+    "Planning" : {
+      "@id" : "http://w3id.org/ocds/ns##Planning"
+    },
+    "budgetAmount" : {
+      "@id" : "http://w3id.org/ocds/ns##budgetAmount",
+      "@type" : "@id"
+    },
+    "planningUrl" : {
+      "@id" : "http://w3id.org/ocds/ns##planningUrl",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "Budget" : {
+      "@id" : "http://w3id.org/ocds/ns##Budget"
+    },
+    "contractTitle" : {
+      "@id" : "http://w3id.org/ocds/ns##contractTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ocid" : {
+      "@id" : "http://w3id.org/ocds/ns##ocid",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "additionalIdentifiers" : {
+      "@id" : "http://w3id.org/ocds/ns##additionalIdentifiers",
+      "@type" : "@id"
+    },
+    "currency" : {
+      "@id" : "http://w3id.org/ocds/ns##currency",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "classificationId" : {
+      "@id" : "http://w3id.org/ocds/ns##classificationId"
+    },
+    "DocumentType" : {
+      "@id" : "http://w3id.org/ocds/ns##DocumentType"
+    },
+    "faxNumber" : {
+      "@id" : "http://w3id.org/ocds/ns##faxNumber",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "milestones" : {
+      "@id" : "http://w3id.org/ocds/ns##milestones",
+      "@type" : "@id"
+    },
+    "Milestone" : {
+      "@id" : "http://w3id.org/ocds/ns##Milestone"
+    },
+    "contractPeriod" : {
+      "@id" : "http://w3id.org/ocds/ns##contractPeriod",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "lotTitle" : {
+      "@id" : "http://w3id.org/ocds/ns##lotTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "contractItems" : {
+      "@id" : "http://w3id.org/ocds/ns##contractItems",
+      "@type" : "@id"
+    },
+    "author" : {
+      "@id" : "http://purl.org/dc/terms/author"
+    },
+    "tenderPeriod" : {
+      "@id" : "http://w3id.org/ocds/ns##tenderPeriod",
+      "@type" : "@id"
+    },
+    "project" : {
+      "@id" : "http://w3id.org/ocds/ns##project",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "tenderAmendment" : {
+      "@id" : "http://w3id.org/ocds/ns##tenderAmendment",
+      "@type" : "@id"
+    },
+    "Contract" : {
+      "@id" : "http://w3id.org/ocds/ns##Contract"
+    },
+    "transactionId" : {
+      "@id" : "http://w3id.org/ocds/ns##transactionId"
+    },
+    "contactPointUrl" : {
+      "@id" : "http://w3id.org/ocds/ns##contactPointUrl",
+      "@type" : "@id"
+    },
+    "dncpContractCode" : {
+      "@id" : "http://w3id.org/ocds/ns##dncpContractCode",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "contactPointName" : {
+      "@id" : "http://w3id.org/ocds/ns##contactPointName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "documentTitle" : {
+      "@id" : "http://w3id.org/ocds/ns##documentTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "transactionDate" : {
+      "@id" : "http://w3id.org/ocds/ns##transactionDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "contractFollows" : {
+      "@id" : "http://w3id.org/ocds/ns##contractFollows",
+      "@type" : "@id"
+    },
+    "countryName" : {
+      "@id" : "http://w3id.org/ocds/ns##countryName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "id" : {
+      "@id" : "http://w3id.org/ocds/ns##id",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "procurementMethodRationale" : {
+      "@id" : "http://w3id.org/ocds/ns##procurementMethodRationale",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "milestoneId" : {
+      "@id" : "http://w3id.org/ocds/ns##milestoneId"
+    },
+    "itemDescription" : {
+      "@id" : "http://w3id.org/ocds/ns##itemDescription",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "homepage" : {
+      "@id" : "http://xmlns.com/foaf/0.1/homepage"
+    },
+    "email" : {
+      "@id" : "http://w3id.org/ocds/ns##email",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "planningRationale" : {
+      "@id" : "http://w3id.org/ocds/ns##planningRationale",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "suppliers" : {
+      "@id" : "http://w3id.org/ocds/ns##suppliers",
+      "@type" : "@id"
+    },
+    "implementationDocuments" : {
+      "@id" : "http://w3id.org/ocds/ns##implementationDocuments",
+      "@type" : "@id"
+    },
+    "ReleaseTag" : {
+      "@id" : "http://w3id.org/ocds/ns##ReleaseTag"
+    },
+    "amendmentRationale" : {
+      "@id" : "http://w3id.org/ocds/ns##amendmentRationale",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "planningPrecedes" : {
+      "@id" : "http://w3id.org/ocds/ns##planningPrecedes",
+      "@type" : "@id"
+    },
+    "Award" : {
+      "@id" : "http://w3id.org/ocds/ns##Award"
+    },
+    "tender" : {
+      "@id" : "http://w3id.org/ocds/ns##tender",
+      "@type" : "@id"
+    },
+    "tenderId" : {
+      "@id" : "http://w3id.org/ocds/ns##tenderId"
+    },
+    "classificationDescription" : {
+      "@id" : "http://w3id.org/ocds/ns##classificationDescription",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "contractValue" : {
+      "@id" : "http://w3id.org/ocds/ns##contractValue",
+      "@type" : "@id"
+    },
+    "implementationMilestones" : {
+      "@id" : "http://w3id.org/ocds/ns##implementationMilestones",
+      "@type" : "@id"
+    },
+    "releaseDate" : {
+      "@id" : "http://w3id.org/ocds/ns##releaseDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "tenderValue" : {
+      "@id" : "http://w3id.org/ocds/ns##tenderValue",
+      "@type" : "@id"
+    },
+    "directlyFollows" : {
+      "@id" : "http://www.ontologydesignpatterns.org/cp/owl/sequence.owl#directlyFollows",
+      "@type" : "@id"
+    },
+    "tenderUrl" : {
+      "@id" : "http://w3id.org/ocds/ns##tenderUrl",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "contractAmendment" : {
+      "@id" : "http://w3id.org/ocds/ns##contractAmendment",
+      "@type" : "@id"
+    },
+    "postalCode" : {
+      "@id" : "http://w3id.org/ocds/ns##postalCode",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "tenderDescription" : {
+      "@id" : "http://w3id.org/ocds/ns##tenderDescription",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ContactPoint" : {
+      "@id" : "http://w3id.org/ocds/ns##ContactPoint"
+    },
+    "tenderLots" : {
+      "@id" : "http://w3id.org/ocds/ns##tenderLots",
+      "@type" : "@id"
+    },
+    "milestoneDocuments" : {
+      "@id" : "http://w3id.org/ocds/ns##milestoneDocuments",
+      "@type" : "@id"
+    },
+    "identifierId" : {
+      "@id" : "http://w3id.org/ocds/ns##identifierId"
+    },
+    "tag" : {
+      "@id" : "http://w3id.org/ocds/ns##tag",
+      "@type" : "@id"
+    },
+    "quantity" : {
+      "@id" : "http://w3id.org/ocds/ns##quantity",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "awardID" : {
+      "@id" : "http://w3id.org/ocds/ns##awardID",
+      "@type" : "@id"
+    },
+    "contractStatus" : {
+      "@id" : "http://w3id.org/ocds/ns##contractStatus",
+      "@type" : "@id"
+    },
+    "Tender" : {
+      "@id" : "http://w3id.org/ocds/ns##Tender"
+    },
+    "implementation" : {
+      "@id" : "http://w3id.org/ocds/ns##implementation",
+      "@type" : "@id"
+    },
+    "tenderFollows" : {
+      "@id" : "http://w3id.org/ocds/ns##tenderFollows",
+      "@type" : "@id"
+    },
+    "address" : {
+      "@id" : "http://w3id.org/ocds/ns##address",
+      "@type" : "@id"
+    },
+    "awardPrecedes" : {
+      "@id" : "http://w3id.org/ocds/ns##awardPrecedes",
+      "@type" : "@id"
+    },
+    "tenderTitle" : {
+      "@id" : "http://w3id.org/ocds/ns##tenderTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Value" : {
+      "@id" : "http://w3id.org/ocds/ns##Value"
+    },
+    "contractLots" : {
+      "@id" : "http://w3id.org/ocds/ns##contractLots",
+      "@type" : "@id"
+    },
+    "milestoneDateModified" : {
+      "@id" : "http://w3id.org/ocds/ns##milestoneDateModified",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "Method" : {
+      "@id" : "http://w3id.org/ocds/ns##Method"
+    },
+    "region" : {
+      "@id" : "http://w3id.org/ocds/ns##region",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "identifier" : {
+      "@id" : "http://w3id.org/ocds/ns##identifier",
+      "@type" : "@id"
+    },
+    "transactionSource" : {
+      "@id" : "http://w3id.org/ocds/ns##transactionSource",
+      "@type" : "@id"
+    },
+    "changes" : {
+      "@id" : "http://w3id.org/ocds/ns##changes",
+      "@type" : "@id"
+    },
+    "milestoneDescription" : {
+      "@id" : "http://w3id.org/ocds/ns##milestoneDescription",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "additionalClassifications" : {
+      "@id" : "http://w3id.org/ocds/ns##additionalClassifications",
+      "@type" : "@id"
+    },
+    "organizationName" : {
+      "@id" : "http://w3id.org/ocds/ns##organizationName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "telephone" : {
+      "@id" : "http://w3id.org/ocds/ns##telephone",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "unitName" : {
+      "@id" : "http://w3id.org/ocds/ns##unitName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "property" : {
+      "@id" : "http://w3id.org/ocds/ns##property",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Change" : {
+      "@id" : "http://w3id.org/ocds/ns##Change"
+    },
+    "contractDescription" : {
+      "@id" : "http://w3id.org/ocds/ns##contractDescription",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "valueAmount" : {
+      "@id" : "http://w3id.org/ocds/ns##valueAmount",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "locality" : {
+      "@id" : "http://w3id.org/ocds/ns##locality",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "classificationScheme" : {
+      "@id" : "http://w3id.org/ocds/ns##classificationScheme",
+      "@type" : "@id"
+    },
+    "Lot" : {
+      "@id" : "http://w3id.org/ocds/ns##Lot"
+    },
+    "InitiationType" : {
+      "@id" : "http://w3id.org/ocds/ns##InitiationType"
+    },
+    "planning" : {
+      "@id" : "http://w3id.org/ocds/ns##planning",
+      "@type" : "@id"
+    },
+    "Classification" : {
+      "@id" : "http://w3id.org/ocds/ns##Classification"
+    },
+    "budgetSource" : {
+      "@id" : "http://w3id.org/ocds/ns##budgetSource",
+      "@type" : "@id"
+    },
+    "streetAddress" : {
+      "@id" : "http://w3id.org/ocds/ns##streetAddress",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "tenderDocuments" : {
+      "@id" : "http://w3id.org/ocds/ns##tenderDocuments",
+      "@type" : "@id"
+    },
+    "contracts" : {
+      "@id" : "http://w3id.org/ocds/ns##contracts",
+      "@type" : "@id"
+    },
+    "documents" : {
+      "@id" : "http://w3id.org/ocds/ns##documents",
+      "@type" : "@id"
+    },
+    "awardFollows" : {
+      "@id" : "http://w3id.org/ocds/ns##awardFollows",
+      "@type" : "@id"
+    },
+    "numberOfTenderers" : {
+      "@id" : "http://w3id.org/ocds/ns##numberOfTenderers",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Implementation" : {
+      "@id" : "http://w3id.org/ocds/ns##Implementation"
+    },
+    "award" : {
+      "@id" : "http://w3id.org/ocds/ns##award",
+      "@type" : "@id"
+    },
+    "receiverOrganization" : {
+      "@id" : "http://w3id.org/ocds/ns##receiverOrganization",
+      "@type" : "@id"
+    },
+    "awardId" : {
+      "@id" : "http://w3id.org/ocds/ns##awardId",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "datePublished" : {
+      "@id" : "http://w3id.org/ocds/ns##datePublished",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "awardCriteriaDetails" : {
+      "@id" : "http://w3id.org/ocds/ns##awardCriteriaDetails",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "URI" : {
+      "@id" : "http://purl.org/dc/terms/URI"
+    },
+    "documentDateModified" : {
+      "@id" : "http://w3id.org/ocds/ns##documentDateModified",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "budget" : {
+      "@id" : "http://w3id.org/ocds/ns##budget",
+      "@type" : "@id"
+    },
+    "contractId" : {
+      "@id" : "http://w3id.org/ocds/ns##contractId"
+    },
+    "legalName" : {
+      "@id" : "http://w3id.org/ocds/ns##legalName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "contractDocuments" : {
+      "@id" : "http://w3id.org/ocds/ns##contractDocuments",
+      "@type" : "@id"
+    },
+    "submissionMethodDetails" : {
+      "@id" : "http://w3id.org/ocds/ns##submissionMethodDetails",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "documentLanguage" : {
+      "@id" : "http://w3id.org/ocds/ns##documentLanguage",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasEnquiries" : {
+      "@id" : "http://w3id.org/ocds/ns##hasEnquiries",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "unit" : {
+      "@id" : "http://w3id.org/ocds/ns##unit",
+      "@type" : "@id"
+    },
+    "awardValue" : {
+      "@id" : "http://w3id.org/ocds/ns##awardValue",
+      "@type" : "@id"
+    },
+    "documentDescription" : {
+      "@id" : "http://w3id.org/ocds/ns##documentDescription",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "dueDate" : {
+      "@id" : "http://w3id.org/ocds/ns##dueDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "transactions" : {
+      "@id" : "http://w3id.org/ocds/ns##transactions",
+      "@type" : "@id"
+    },
+    "tenderPrecedes" : {
+      "@id" : "http://w3id.org/ocds/ns##tenderPrecedes",
+      "@type" : "@id"
+    },
+    "classificationUri" : {
+      "@id" : "http://w3id.org/ocds/ns##classificationUri",
+      "@type" : "@id"
+    },
+    "contactPoint" : {
+      "@id" : "http://w3id.org/ocds/ns##contactPoint",
+      "@type" : "@id"
+    },
+    "Resource" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    },
+    "lotItems" : {
+      "@id" : "http://w3id.org/ocds/ns##lotItems",
+      "@type" : "@id"
+    },
+    "itemId" : {
+      "@id" : "http://w3id.org/ocds/ns##itemId"
+    },
+    "unitValue" : {
+      "@id" : "http://w3id.org/ocds/ns##unitValue",
+      "@type" : "@id"
+    },
+    "providerOrganization" : {
+      "@id" : "http://w3id.org/ocds/ns##providerOrganization",
+      "@type" : "@id"
+    },
+    "awardDate" : {
+      "@id" : "http://w3id.org/ocds/ns##awardDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "enquiryPeriod" : {
+      "@id" : "http://w3id.org/ocds/ns##enquiryPeriod",
+      "@type" : "@id"
+    },
+    "Document" : {
+      "@id" : "http://w3id.org/ocds/ns##Document"
+    },
+    "eligibilityCriteria" : {
+      "@id" : "http://w3id.org/ocds/ns##eligibilityCriteria",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "directlyPrecedes" : {
+      "@id" : "http://www.ontologydesignpatterns.org/cp/owl/sequence.owl#directlyPrecedes",
+      "@type" : "@id"
+    },
+    "awardAmendment" : {
+      "@id" : "http://w3id.org/ocds/ns##awardAmendment",
+      "@type" : "@id"
+    },
+    "Transaction" : {
+      "@id" : "http://w3id.org/ocds/ns##Transaction"
+    },
+    "budgetDescription" : {
+      "@id" : "http://w3id.org/ocds/ns##budgetDescription",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ContractStatus" : {
+      "@id" : "http://w3id.org/ocds/ns##ContractStatus"
+    },
+    "SubmissionMethod" : {
+      "@id" : "http://w3id.org/ocds/ns##SubmissionMethod"
+    },
+    "former_value" : {
+      "@id" : "http://w3id.org/ocds/ns##former_value",
+      "@type" : "@id"
+    },
+    "awardStatus" : {
+      "@id" : "http://w3id.org/ocds/ns##awardStatus",
+      "@type" : "@id"
+    },
+    "procurementMethod" : {
+      "@id" : "http://w3id.org/ocds/ns##procurementMethod",
+      "@type" : "@id"
+    },
+    "Item" : {
+      "@id" : "http://w3id.org/ocds/ns##Item"
+    },
+    "endDate" : {
+      "@id" : "http://w3id.org/ocds/ns##endDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "transactionAmount" : {
+      "@id" : "http://w3id.org/ocds/ns##transactionAmount",
+      "@type" : "@id"
+    },
+    "minValue" : {
+      "@id" : "http://w3id.org/ocds/ns##minValue",
+      "@type" : "@id"
+    },
+    "submissionMethod" : {
+      "@id" : "http://w3id.org/ocds/ns##submissionMethod",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "identifierUri" : {
+      "@id" : "http://w3id.org/ocds/ns##identifierUri",
+      "@type" : "@id"
+    },
+    "AwardCriteria" : {
+      "@id" : "http://w3id.org/ocds/ns##AwardCriteria"
+    },
+    "Identifier" : {
+      "@id" : "http://w3id.org/ocds/ns##Identifier"
+    },
+    "awardDescription" : {
+      "@id" : "http://w3id.org/ocds/ns##awardDescription",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "documentType" : {
+      "@id" : "http://w3id.org/ocds/ns##documentType",
+      "@type" : "@id"
+    },
+    "tenderers" : {
+      "@id" : "http://w3id.org/ocds/ns##tenderers",
+      "@type" : "@id"
+    },
+    "projectID" : {
+      "@id" : "http://w3id.org/ocds/ns##projectID"
+    },
+    "dateSigned" : {
+      "@id" : "http://w3id.org/ocds/ns##dateSigned",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "tenderStatus" : {
+      "@id" : "http://w3id.org/ocds/ns##tenderStatus",
+      "@type" : "@id"
+    },
+    "format" : {
+      "@id" : "http://w3id.org/ocds/ns##format",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Amendment" : {
+      "@id" : "http://w3id.org/ocds/ns##Amendment"
+    },
+    "milestoneStatus" : {
+      "@id" : "http://w3id.org/ocds/ns##milestoneStatus",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "classification" : {
+      "@id" : "http://w3id.org/ocds/ns##classification",
+      "@type" : "@id"
+    }
+  }
+}

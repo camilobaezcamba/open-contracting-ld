@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "Lot": {
+      "@id": "http://purl.org/onto-ocds/ocds#Lot"
+    },
+    "id": {
+      "@id": "http://purl.org/onto-ocds/ocds#lotId",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "title": {
+      "@id": "http://purl.org/onto-ocds/ocds#lotTitle",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "items": {
+      "@id": "http://purl.org/onto-ocds/ocds#lotItems",
+      "@type": "@id"
+    }
+  }
+}

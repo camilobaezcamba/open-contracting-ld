@@ -1,0 +1,137 @@
+{
+  "@context": "http://girolabs.com.py/ocds/context-tender.json",
+  "@type": "Tender",
+  "@id": "https://www.contrataciones.gov.py/datos/id/convocatorias/193399-adquisicion-scanner",
+  "id": "193399-adquisicion-scanner",
+  "title": "Adquisición de Scanner",
+  "status": "complete",
+  "lots": [
+    {
+      "id": "nYZlDIKXpLc%3D",
+      "title": "Lote 1",
+      "items": [
+        "P8melbTmu7M%3D",
+        "aGlYxd8PQDw%3D"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "@context": "http://girolabs.com.py/ocds/context-item.json",
+      "@type": "Item",
+      "@id": "P8melbTmu7M%3D",
+      "description": "Scanners",
+      "id": "P8melbTmu7M%3D",
+      "classification": {
+        "@context": "http://girolabs.com.py/ocds/context-classification.json",
+        "@type": "Classification",
+        "@id": "https://www.contrataciones.gov.py/datos/api/v2/doc/catalogo/nivel-5/43211711-001",
+        "scheme": "Catálogo de productos, bienes y servicios de la Dirección Nacional de Contrataciones Públicas del Paraguay",
+        "id": "43211711-001",
+        "description": "Catálogo de productos, bienes y servicios de la Dirección Nacional de Contrataciones Públicas del Paraguay Nivel 5, basado en UNSPSC",
+        "uri": "https://www.contrataciones.gov.py/datos/api/v2/doc/catalogo/nivel-5/43211711-001"
+      },
+      "quantity": 8,
+      "unit": {
+        "@context": "http://girolabs.com.py/ocds/context-unit.json",
+        "@type": "Unit",
+        "name": "Unidad",
+        "value": {
+          "@context": "http://girolabs.com.py/ocds/context-value.json",
+          "@type": "Value",
+          "amount": null,
+          "currency": "PYG"
+        }
+      }
+    },
+    {
+      "@context": "http://girolabs.com.py/ocds/context-item.json",
+      "@type": "Item",
+      "@id": "aGlYxd8PQDw%3D",
+      "description": "Scanners",
+      "id": "aGlYxd8PQDw%3D",
+      "classification": {
+        "@context": "http://girolabs.com.py/ocds/context-classification.json",
+        "@type": "Classification",
+        "@id": "https://www.contrataciones.gov.py/datos/api/v2/doc/catalogo/nivel-5/43211711-001",
+        "scheme": "Catálogo de productos, bienes y servicios de la Dirección Nacional de Contrataciones Públicas del Paraguay",
+        "id": "43211711-001",
+        "description": "Catálogo de productos, bienes y servicios de la Dirección Nacional de Contrataciones Públicas del Paraguay Nivel 5, basado en UNSPSC",
+        "uri": "https://www.contrataciones.gov.py/datos/api/v2/doc/catalogo/nivel-5/43211711-001"
+      },
+      "quantity": 2,
+      "unit": {
+        "@context": "http://girolabs.com.py/ocds/context-unit.json",
+        "@type": "Unit",
+        "name": "Unidad",
+        "value": {
+          "@context": "http://girolabs.com.py/ocds/context-value.json",
+          "@type": "Value",
+          "amount": null,
+          "currency": "PYG"
+        }
+      }
+    }
+  ],
+  "value": {
+    "@context": "http://girolabs.com.py/ocds/context-value.json",
+    "@type": "Value",
+    "currency": "PYG",
+    "amount": null
+  },
+  "enquiryPeriod": {
+    "@context": "http://girolabs.com.py/ocds/context-period.json",
+    "@type": "Period",
+    "endDate": "2010-02-05T00:00:00-05:00"
+  },
+  "hasEnquiries": false,
+  "awardPeriod": {
+    "@context": "http://girolabs.com.py/ocds/context-period.json",
+    "@type": "Period",
+    "startDate": "2010-02-05T00:00:00-05:00",
+    "endDate": "2010-03-17T10:10:33-04:00"
+  },
+  "procuringEntity": {
+    "@context": "http://girolabs.com.py/ocds/context-organization.json",
+    "@type": "Organization",
+    "name": "Dirección Nacional de Contrataciones Públicas (DNCP)",
+    "contactPoint": {
+      "name": "Abog. Cynthia Leite de Lezcano",
+      "email": "uoc@contrataciones.gov.py",
+      "telephone": "415-4000"
+    }
+  },
+  "documents": [
+    {
+      "@context": "http://girolabs.com.py/ocds/context-document.json",
+      "@type": "Document",
+      "id": "y%2FJgDClEAtk%3D",
+      "documentType": "Condiciones Generales del Contrato - Bienes y Servicios por Subasta",
+      "title": "Condiciones Generales del Contrato - Bienes y Servicios por Subasta",
+      "language": "es",
+      "url": "https://www.contrataciones.gov.py/documentos/download/convocatoria/y%252FJgDClEAtk%253D",
+      "format": "application/pdf"
+    },
+    {
+      "@context": "http://girolabs.com.py/ocds/context-document.json",
+      "@type": "Document",
+      "id": "PhIjL%2Fj9z8k%3D",
+      "documentType": "Instrucción a los Oferentes - Bienes y Servicios por Subasta",
+      "title": "Instrucción a los Oferentes - Bienes y Servicios por Subasta",
+      "language": "es",
+      "url": "https://www.contrataciones.gov.py/documentos/download/convocatoria/PhIjL%252Fj9z8k%253D",
+      "format": "application/pdf"
+    }
+  ],
+  "tenderPeriod": {
+    "@context": "http://girolabs.com.py/ocds/context-period.json",
+    "@type": "Period",
+    "endDate": null,
+    "startDate": "2010-03-15T09:00:00-04:00"
+  },
+  "submissionMethod": [
+    "electronicAuction"
+  ],
+  "url": "https://www.contrataciones.gov.py/datos/id/convocatorias/193399-adquisicion-scanner"
+}
+    

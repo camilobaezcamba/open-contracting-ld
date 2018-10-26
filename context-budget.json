@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "Budget": {
+      "@id": "http://purl.org/onto-ocds/ocds#Budget"
+    },
+    "amount": {
+      "@id": "http://purl.org/onto-ocds/ocds#budgetAmount",
+      "@type": "@id"
+    },
+    "description": {
+      "@id": "http://purl.org/onto-ocds/ocds#budgetDescription",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }
+}
