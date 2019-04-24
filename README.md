@@ -2,7 +2,7 @@
 
 This project aims at enabling any JSON data that complies with the [OCDS JSON Schema](http://standard.open-contracting.org/latest/en/schema/) to be published as [Linked Data](https://www.w3.org/standards/semanticweb/data).
 
-### What??
+### What is OCDS
 
 The **[OCDS](http://standard.open-contracting.org/latest/en/)** is a data model that aims at structuring and publishing contracting data (tenders, procurements, awards, transactions, etc.). It got international adoption and is one of the leading models in this domain.
 
