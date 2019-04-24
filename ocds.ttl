@@ -673,7 +673,7 @@ dcterms:title rdf:type owl:AnnotationProperty .
 :awardCriteria rdf:type owl:DatatypeProperty ,
                         owl:FunctionalProperty ;
                rdfs:domain :Tender ;
-               rdfs:range xsd:string ;
+               rdfs:range :AwardCriteria ;
                rdfs:comment "Specify the award criteria for the procurement, using the [award criteria codelist](http://standard.open-contracting.org/latest/en/schema/codelists/#award-criteria)"@en ;
                rdfs:label "Award criteria"@en .
 
