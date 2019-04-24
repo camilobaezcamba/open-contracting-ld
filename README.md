@@ -26,7 +26,7 @@ The first deliverable of this project is an ontology (~ schema) that translates 
 
 ### A JSON-LD context to turn any data compliant with OCDS JSON Schema into RDF
 
-Soon (c)
+You can find the JSON-LD context files like this format context-xxx.json. We create one context file per concept at the ontology.
 
 ### License
 
