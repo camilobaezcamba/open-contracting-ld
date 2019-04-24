@@ -32,6 +32,7 @@ Soon (c)
 
 This project is licensed under the terms of the [CC-BY license](https://creativecommons.org/licenses/by/2.0/). That basically means you can do what you want with it, as long as you mention I'm the author of the original version, with a link to this page.
 
-Credit can be given this way:
+This work was developed by Rodrigo Valdez (https://github.com/yank07/) and Camilo Baez (https://github.com/camilobaezcamba/) as part the thesis work of Software Engeineer at the Universidad Nacional de Asuncion
 
 "Original version by Colin Maudry (http://colin.maudry.com), published at https://github.com/ColinMaudry/open-contracting-ld."
+
